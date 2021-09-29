@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: ascomycota_odb10 (Creation date: 2020-09-10, number of genomes: 365, number of BUSCOs: 1706)
+# Summarized benchmarking in BUSCO notation for file /bigdata/stajichlab/shared/projects/Metagenomics/UCSD_Tumor_mycobiome/bin.16.fa
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:4.0%[S:2.1%,D:1.9%],F:0.4%,M:95.6%,n:1706	   
+	68	Complete BUSCOs (C)			   
+	35	Complete and single-copy BUSCOs (S)	   
+	33	Complete and duplicated BUSCOs (D)	   
+	6	Fragmented BUSCOs (F)			   
+	1632	Missing BUSCOs (M)			   
+	1706	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d
