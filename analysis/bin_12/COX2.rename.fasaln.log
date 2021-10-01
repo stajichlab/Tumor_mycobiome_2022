@@ -1,0 +1,503 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    x01 (AVX512, FMA3, 502 GB RAM)
+Command: iqtree2 -s COX2.rename.fasaln -m MFP -nt AUTO --runs 4
+Seed:    562772 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Sep 26 10:38:36 2021
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file COX2.rename.fasaln ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 239 sequences with 590 columns, 506 distinct patterns
+262 parsimony-informative, 245 singleton sites, 83 constant sites
+                                                           Gap/Ambiguity  Composition  p-value
+   1  Rozella_allomycis                                           59.49%    failed      0.00%
+   2  Spizellomyces_punctatus_BR117                               54.92%    passed     26.96%
+   3  Rhizophydium_sp._136                                        57.12%    passed     28.47%
+   4  Hyaloraphidium_curvatum__SAG_235_1                          60.85%    passed     82.56%
+   5  Monoblepharella_sp._JEL15                                   60.85%    passed     88.33%
+   6  Harpochytrium_sp._JEL94                                     60.51%    passed     68.58%
+   7  Harpochytrium_sp._JEL105                                    60.51%    passed     92.05%
+   8  Schizosaccharomyces_japonicus_ATCC10660                     57.63%    passed     99.77%
+   9  Schizosaccharomyces_pombe_ad7_50h_.                         57.97%    passed     97.49%
+  10  Schizosaccharomyces_octosporus_ATCC2479                     57.97%    passed     98.97%
+  11  Hanseniaspora_uvarum_MUCL_31704                             58.47%    passed      5.04%
+  12  Zancudomyces_culisetae_18_3                                 56.95%    passed     77.23%
+  13  Allomyces_macrogynus_Burma_3_35                             58.47%    passed     70.55%
+  14  Blastocladiella_emersonii                                   57.97%    passed     76.06%
+  15  Exophiala_dermatitidis_NIH_UT8656                           58.47%    passed     99.87%
+  16  Paracoccidioides_brasiliensis_Pb18                          56.95%    passed     99.04%
+  17  Penicillium_chrysogenum_Wisconsin_54_1255                   57.12%    passed     93.14%
+  18  Penicillium_digitatum_pd01                                  57.12%    passed     88.10%
+  19  Penicillium_solitum_20_01                                   57.12%    passed     92.75%
+  20  Aspergillus_nidulans_FGSC_A4                                57.12%    passed     94.61%
+  21  Aspergillus_terreus_NIH2624                                 57.12%    passed     99.71%
+  22  Aspergillus_ustus_3.3904                                    57.12%    passed     98.83%
+  23  Aspergillus_oryzae_RIB40                                    57.12%    passed     99.97%
+  24  Aspergillus_flavus_NRRL3357                                 57.12%    passed     99.97%
+  25  Aspergillus_clavatus_NRRL1                                  57.12%    passed     99.96%
+  26  Aspergillus_fumigatus_AF293                                 57.12%    passed     99.96%
+  27  Aspergillus_fumigatus_AF210                                 57.12%    passed     99.96%
+  28  Aspergillus_fumigatus_A1163                                 57.12%    passed     99.96%
+  29  Neosartorya_fischeri_NRRL181                                57.12%    passed     99.92%
+  30  Aspergillus_kawachii_IFO_4308                               57.12%    passed     99.70%
+  31  Aspergillus_tubingensis_932                                 57.12%    passed     99.91%
+  32  Aspergillus_niger_N909                                      57.12%    passed     99.52%
+  33  Penicillium_marneffei_MP1                                   57.46%    passed    100.00%
+  34  COX2_bin12                                                  53.05%    passed     96.85%
+  35  Ajellomyces_capsulatus_G186AR                               53.05%    passed     95.29%
+  36  Coccidioides_immitis_RS                                     55.59%    passed     99.55%
+  37  Arthroderma_otae_ATCC36299                                  55.08%    passed     99.75%
+  38  Epidermophyton_floccosum_ATCC26072                          55.25%    passed     99.26%
+  39  Microsporum_gypseum_CBS_118893                              55.25%    passed     99.74%
+  40  Arthroderma_obtusum_ATCC42129                               55.25%    passed     99.82%
+  41  Trichophyton_rubrum_BMU_01672                               55.25%    passed     99.67%
+  42  Trichophyton_mentagrophytes_BMU_03104                       55.25%    passed     99.53%
+  43  Arthroderma_uncinatum_ATCC28454                             55.08%    passed     99.16%
+  44  Trichophyton_tonsurans_CBS_112818                           75.59%    passed     92.14%
+  45  Ceratocystis_cacaofunesta                                   57.29%    passed     95.01%
+  46  Lecanicillium_muscarium_C42                                 57.80%    passed     99.91%
+  47  Paecilomyces_hepiali_CS_4                                   57.80%    passed     99.88%
+  48  Cordyceps_militaris_EFCC_C2                                 58.14%    passed     99.88%
+  49  Beauveria_pseudobassiana_C1010                              58.14%    passed     99.87%
+  50  Cordyceps_bassiana_Bb147                                    57.80%    passed     99.92%
+  51  Beauveria_bassiana_Bb13                                     57.80%    passed     99.83%
+  52  Cordyceps_brongniartii_IMBST95031                           57.80%    passed     99.88%
+  53  Annulohypoxylon_stygium                                     57.29%    passed    100.00%
+  54  Zymoseptoria_tritici_IPO323                                 57.80%    passed     97.22%
+  55  Phaeosphaeria_nodorum_SN15                                  59.49%    passed     98.59%
+  56  Peltigera_malacea_DB3992                                    57.97%    passed     99.89%
+  57  Peltigera_membranacea_LA_31632                              57.97%    passed     99.89%
+  58  Verticillium_alboatrum_VaMS102                              57.97%    passed     99.99%
+  59  Verticillium_dahliae_Vd_76                                  57.97%    passed     99.99%
+  60  Glomerella_graminicola_M1.001                               57.63%    passed     99.42%
+  61  Colletotrichum_lindemuthianum_var._Cargamanto               57.97%    passed     98.47%
+  62  Metarhizium_anisopliae_ME1                                  57.80%    passed     99.96%
+  63  Metacordyceps_chlamydosporia_170                            57.80%    passed     99.99%
+  64  Acremonium_chrysogenum_ATCC_11550                           57.46%    passed     96.14%
+  65  Fusarium_solani_mpVI                                        57.80%    passed     99.54%
+  66  Fusarium_oxysporum_F11                                      57.80%    passed     99.97%
+  67  Gibberella_moniliformis_7600                                57.80%    passed     99.97%
+  68  Fusarium_circinatum_MRC_7870                                57.80%    passed     99.97%
+  69  Fusarium_gerlachii_CBS_123666                               57.80%    passed     99.97%
+  70  Gibberella_zeae_PH_1                                        57.80%    passed     99.97%
+  71  Glarea_lozoyensis_74030                                     57.46%    passed     99.78%
+  72  Phialocephala_subalpina_70_1                                57.80%    passed     99.99%
+  73  Rhynchosporium_agropyri_04CH_RAC_A.6.1                      57.46%    passed     99.98%
+  74  Rhynchosporium_commune_UK7                                  57.46%    passed     99.98%
+  75  Rhynchosporium_secalis_02CH4_6a.1                           57.46%    passed     99.98%
+  76  Rhynchosporium_orthosporum_04CH_BAR_A.1.1.3                 57.46%    passed    100.00%
+  77  Sclerotinia_borealis_F_4128                                 57.46%    passed     99.41%
+  78  Botryotinia_fuckeliana_B05.10                               57.12%    passed     99.21%
+  79  Sclerotinia_sclerotiorum_1980_ATCC18683                     57.29%    passed     99.12%
+  80  Ophiostoma_novo_ulmi_subsp._novo_ulmi_H327                  57.63%    passed     97.48%
+  81  Sporothrix_schenckii_KMU2052                                57.63%    passed     85.04%
+  82  Sporothrix_schenckii_ATCC10268                              57.63%    passed     94.40%
+  83  Chaetomium_thermophilum_var._thermophilum_DSM_1495          57.63%    passed     86.52%
+  84  Podospora_anserina_race_s                                   57.63%    passed     99.97%
+  85  Chaetomium_globosum_CBS_148.51                              57.80%    passed     98.10%
+  86  Madurella_mycetomatis_mm55                                  57.63%    passed     98.55%
+  87  Sordaria_macrospora_k_hell                                  57.63%    passed     99.87%
+  88  Neurospora_crassa_OR74A                                     57.63%    passed     99.70%
+  89  Pneumocystis_jirovecii_Pj_WI                                57.63%    passed     69.98%
+  90  Pneumocystis_jirovecii_Pj_R68                               57.63%    passed     69.98%
+  91  Pneumocystis_jirovecii_Pj_1368                              57.63%    passed     69.98%
+  92  Pneumocystis_jirovecii__NCBI_NC_020331_                     57.63%    passed     69.98%
+  93  Pneumocystis_murina                                         58.47%    passed     99.58%
+  94  Pneumocystis_carinii__NCBI_JX499145_                        58.81%    passed     99.12%
+  95  Pneumocystis_carinii                                        58.81%    passed     99.12%
+  96  Malassezia_sympodialis_ATCC_42132                           55.76%    passed     96.06%
+  97  Phakopsora_pachyrhizi_Taiwan_72_1                           57.46%    passed     96.72%
+  98  Phakopsora_meibomiae_Puerto_Rico                            57.46%    passed     99.15%
+  99  Gigaspora_rosea_DAOM_194757                                 52.54%    passed     88.92%
+ 100  Gigaspora_margarita_BEG34                                   51.53%    passed     63.75%
+ 101  Glomus_cerebriforme_DAOM_227022                             48.81%    passed     96.47%
+ 102  Glomus_sp._DAOM_229456                                      15.42%    failed      3.65%
+ 103  Glomus_sp._DAOM_240422                                      53.73%    passed     99.82%
+ 104  Rhizophagus_irregularis_DAOM_240415                         55.42%    passed     99.94%
+ 105  Rhizophagus_irregularis_DAOM_234328                         55.42%    passed     99.94%
+ 106  Rhizophagus_irregularis_MUCL_43204                          52.03%    passed     99.60%
+ 107  Rhizophagus_irregularis_DAOM_197198                         52.03%    passed     99.30%
+ 108  Rhizophagus_irregularis_MUCL_46239                          52.03%    passed     99.69%
+ 109  Rhizophagus_irregularis_MUCL_46241                          52.03%    passed     99.69%
+ 110  Rhizophagus_irregularis_DAOM_234179                         52.03%    passed     99.69%
+ 111  Rhizophagus_intraradices_FACE_494                           52.03%    passed     99.69%
+ 112  Piriformospora_indica_DSM_11827                             58.31%    passed     97.99%
+ 113  lcl|NC_006838-MovefMp15.p01-protein                         96.27%    passed     83.12%
+ 114  lcl|NC_006838-MovefMp17.p01-protein                         57.12%    passed     99.66%
+ 115  Cantharellus_cibarius                                       57.12%    passed     95.92%
+ 116  Rhodotorula_taiwanensis_RS1                                 58.98%    passed     91.97%
+ 117  Microbotryum_lychnidis_dioicae_MvSl135HT1                   53.22%    passed     71.78%
+ 118  Microbotryum_cf._violaceum_BFL_2013                         56.10%    passed     73.50%
+ 119  Cryptococcus_neoformans_var._grubii_serotype_A_strain_H99   57.46%    passed     96.89%
+ 120  Cryptococcus_neoformans_var._grubii_H99                     57.46%    passed     96.89%
+ 121  Trichosporon_asahii_var._asahii_CBS_2479                    57.12%    passed    100.00%
+ 122  Trichosporon_asahii_var._asahii_CBS_8904                    57.12%    passed    100.00%
+ 123  Rhizopus_oryzae_DAOM_148428                                 56.78%    passed     96.62%
+ 124  Parasitella_parasitica_CBS_412.66                           56.78%    passed     98.29%
+ 125  Lichtheimia_hongkongensis                                   56.78%    passed     99.22%
+ 126  Rhizoctonia_solani_AG_1_IB                                  57.46%    passed     98.71%
+ 127  Rhizoctonia_solani_AG3_Rhs1AP                               57.29%    passed     98.36%
+ 128  Tilletia_indica_F11                                         56.27%    passed     98.28%
+ 129  Tilletia_walkeri_TJ23                                       56.27%    passed     98.28%
+ 130  Jaminaea_angkoriensis_C5b                                   56.27%    passed     99.96%
+ 131  Sporisorium_reilianum_SRZ2                                   9.32%    failed      0.01%
+ 132  Ustilago_maydis_521                                         56.78%    passed     98.81%
+ 133  Schizophyllum_commune_UVM_4_40                              57.29%    passed     78.49%
+ 134  Phlebia_radiata_79                                          57.46%    passed     98.89%
+ 135  Trametes_cingulata_ATCC26747                                57.46%    passed     98.96%
+ 136  Ganoderma_sinense                                           57.46%    passed     96.64%
+ 137  Ganoderma_lucidum_G.260125_1                                56.95%    passed     97.07%
+ 138  Ganoderma_lucidum__NCBI_NC_021750_                          57.46%    passed     96.98%
+ 139  Agaricus_bisporus_var._bisporus_H97                         56.27%    passed     92.75%
+ 140  Pleurotus_ostreatus_P51                                     58.81%    passed     97.06%
+ 141  Flammulina_velutipes_KACC42780                              57.12%    passed     98.27%
+ 142  Flammulina_velutipes_4019_20                                57.12%    passed     98.27%
+ 143  Lentinula_edodes_akiyamaA567_pro_pm_17                      57.29%    passed     97.64%
+ 144  Moniliophthora_perniciosa                                   57.46%    passed     97.62%
+ 145  Moniliophthora_roreri_FA553__CP02_                          57.63%    passed     97.19%
+ 146  Starmerella_bacillaris_CECT_11046                           58.31%    failed      1.03%
+ 147  Candida_phangngensis_CBS_10407                              58.98%    failed      0.43%
+ 148  Yarrowia_lipolytica_CBS_599                                 58.98%    passed     99.56%
+ 149  Yarrowia_lipolytica_W29                                     58.98%    passed     99.56%
+ 150  Candida_alimentaria_CBS_10151                               58.98%    passed     91.57%
+ 151  Candida_deformans_CBS_2071                                  58.98%    passed     16.24%
+ 152  Candida_galli_CBS_9722                                      58.98%    failed      0.77%
+ 153  Candida_subhashii_FR_392_06_SUB1                            59.15%    passed     99.79%
+ 154  Candida_subhashii_FR_392                                    58.47%    passed     99.38%
+ 155  Lodderomyces_elongisporus_NRRL_YB_4239                      57.29%    failed      0.02%
+ 156  Candida_bohioensis_NRRL_Y_27737                             58.98%    failed      0.00%
+ 157  Millerozyma_farinosa_CBS_7064                               59.15%    passed     82.92%
+ 158  Debaryomyces_hansenii_CBS_767                               58.31%    failed      0.00%
+ 159  Millerozyma_farinosa_CBS_185                                59.15%    passed     58.63%
+ 160  Candida_corydali_NRRL_Y_27910                               58.31%    passed     90.16%
+ 161  Candida_chauliodes_NRRL_Y_27909                             55.59%    passed     88.39%
+ 162  Meyerozyma_guilliermondii_CBS_2030                          59.15%    passed     99.18%
+ 163  Candida_sake_CBS_159                                        58.31%    passed     94.09%
+ 164  Candida_alai_NRRL_Y_27739                                   57.80%    passed     98.90%
+ 165  Clavispora_lusitaniae_CBS_6936                              59.15%    passed     99.83%
+ 166  Candida_jiufengensis_AS2.3688                               64.41%    passed     66.56%
+ 167  Candida_blackwellae_AS2.3639                                58.64%    passed     99.90%
+ 168  Candida_oxycetoniae_AS2.3656                                58.98%    passed     99.86%
+ 169  Candida_pseudojiufengensis_AS2.3693                         64.41%    passed     97.92%
+ 170  Candida_theae_G_17                                          58.98%    passed     99.56%
+ 171  Candida_parapsilosis_CBS_7157__SR_23_                       55.25%    passed     97.66%
+ 172  Candida_orthopsilosis_MCO456                                55.25%    passed     98.42%
+ 173  Candida_metapsilosis_MCO448                                 55.25%    passed     97.54%
+ 174  Candida_gigantensis_NRRL_Y_27736                            58.14%    passed     97.69%
+ 175  Candida_prachuapensis_WB15                                  58.64%    failed      0.01%
+ 176  Candida_viswanathii_CBS_4024                                57.12%    failed      0.05%
+ 177  Candida_albicans_SC5314                                     55.59%    failed      0.76%
+ 178  Candida_neerlandica_NRRL_Y_27057                            57.97%    passed     13.05%
+ 179  Candida_buenavistaensis_NRRL_Y_27734                        55.59%    passed     98.12%
+ 180  Candida_maltosa_CBS_5611                                    58.81%    passed     98.64%
+ 181  Candida_albicans_CBS_562                                    55.59%    passed     99.94%
+ 182  Candida_labiduridarum_NRRL_Y_27940                          57.97%    passed     98.20%
+ 183  Candida_frijolesensis_NRRL_Y_48060                          58.64%    passed     98.44%
+ 184  Candida_tetrigidarum_NRRL_Y_48142                           58.64%    passed     98.48%
+ 185  Candida_saraburiensis_KU_Xs13                               55.59%    passed     94.57%
+ 186  Candida_tropicalis_CBS_94                                   54.41%    passed     97.67%
+ 187  lcl|NC_013839-CasofM_p08.p01-protein                        58.81%    passed     95.85%
+ 188  lcl|NC_013839-CasofM_p11.p01-protein                        58.81%    passed     95.85%
+ 189  Komagataella_pastoris_CBS_7435                              57.80%    passed     98.99%
+ 190  Brettanomyces_custersianus_CBS_4805                         58.14%    passed     98.67%
+ 191  Dekkera_bruxellensis_CBS_2499                               58.47%    passed     99.57%
+ 192  Pichia_kluyveri_CBS_7907                                    58.64%    passed     98.47%
+ 193  Ogataea_philodendri_CBS_6075                                58.31%    passed     93.56%
+ 194  Ogataea_thermophila_NCAIM_Y.01608                           57.97%    passed     94.37%
+ 195  Ogataea_angusta_DL_1                                        57.97%    passed     93.44%
+ 196  Saccharomycetaceae_sp.__Ashbya_aceri_                       57.80%    passed     58.72%
+ 197  Ashbya_gossypii_ATCC_10895                                  57.97%    passed     43.95%
+ 198  Ashbya_gossypii_FDAG1                                       57.97%    passed     46.79%
+ 199  Cyberlindnera_jadinii_CBS_1600                              58.14%    passed     99.69%
+ 200  Candida_vartiovaarae_CBS_4289                               58.14%    passed     99.46%
+ 201  Cyberlindnera_suaveolens_CBS_255                            58.14%    passed     99.40%
+ 202  Cyberlindnera_suaveolens_CBS_1670                           58.14%    passed     99.32%
+ 203  Wickerhamomyces_pijperi_CBS_2887                            58.14%    passed     99.41%
+ 204  Wickerhamomyces_mucosus_CBS_6341                            58.14%    passed     99.12%
+ 205  Wickerhamomyces_canadensis_21                               58.14%    passed     97.99%
+ 206  Barnettozyma_californica_CBS_252                            57.46%    passed     99.14%
+ 207  Candida_norvegica_CBS_2874                                  58.31%    passed     98.37%
+ 208  Vanderwaltozyma_polyspora_DSMZ_70294                        56.61%    passed     98.85%
+ 209  Candida_castellii_CBS_4332                                  58.14%    passed     99.97%
+ 210  Kazachstania_servazzii_NRRL_Y_12661                         57.63%    passed     99.92%
+ 211  Naumovozyma_castellii_NRRL_Y_12630                          57.80%    passed     99.13%
+ 212  Candida_glabrata_CBS_138                                    61.53%    passed     99.99%
+ 213  Nakaseomyces_delphensis_CBS_2170                            61.69%    passed     99.93%
+ 214  Kluyveromyces_lactis__NRRL_Y_1140                           57.46%    passed     89.92%
+ 215  Kluyveromyces_lactis_NRRL_Y_1140                            56.61%    passed     99.86%
+ 216  Lachancea_kluyveri_NCYC543                                  57.46%    passed    100.00%
+ 217  Lachancea_kluyveri_55_86.1                                  57.46%    passed    100.00%
+ 218  Lachancea_kluyveri_77_1003                                  57.46%    passed    100.00%
+ 219  Lachancea_kluyveri_CBS_5828                                 57.46%    passed    100.00%
+ 220  Lachancea_kluyveri_CBS_6547                                 57.46%    passed    100.00%
+ 221  Lachancea_sp._PJ_2012b_CBS_11717                            57.29%    passed     99.75%
+ 222  Lachancea_dasiensis_CBS_10888                               57.46%    passed     98.27%
+ 223  Lachancea_thermotolerans_CBS_6340                           57.46%    passed     99.52%
+ 224  Lachancea_sp._PJ_2012a_CBS_6924                             57.63%    passed     98.97%
+ 225  Lachancea_nothofagi_CBS_11611                               57.46%    passed     99.25%
+ 226  Lachancea_meyersii_CBS_8951                                 57.29%    passed     98.12%
+ 227  Nakaseomyces_bacillisporus_CBS_7720                         58.14%    passed     99.54%
+ 228  Saccharomyces_pastorianus_Weihenstephan_34_70               57.46%    passed     99.99%
+ 229  Saccharomyces_cerevisiae_Kyokai_no._7                       57.46%    passed     99.96%
+ 230  Saccharomyces_cerevisiae_S288c                              57.46%    passed     99.96%
+ 231  Saccharomyces_paradoxus_CBS_432                             57.46%    passed     99.96%
+ 232  Saccharomyces_cerevisiae_YJM993                             57.46%    passed     99.97%
+ 233  Magnusiomyces_capitatus_NRRL_Y_17686                        57.80%    failed      0.00%
+ 234  Magnusiomyces_ingens_NRRL_Y_17630                           57.80%    passed     30.79%
+ 235  Magnusiomyces_magnusii_270                                  58.14%    passed     99.96%
+ 236  Dipodascus_magnusii_CBS_234.85                              58.14%    failed      0.00%
+ 237  Magnusiomyces_tetrasperma_NRRL_Y_7288                       58.14%    failed      0.00%
+ 238  Candida_santjacobensis_CBS_8183                             58.31%    passed     95.71%
+ 239  Candida_salmanticensis_CBS_5121                             58.14%    passed     94.80%
+WARNING: 236 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                       57.25%  15 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Aspergillus_flavus_NRRL3357 is identical to Aspergillus_oryzae_RIB40 but kept for subsequent analysis
+NOTE: Aspergillus_fumigatus_AF210 is identical to Aspergillus_fumigatus_AF293 but kept for subsequent analysis
+NOTE: Peltigera_membranacea_LA_31632 is identical to Peltigera_malacea_DB3992 but kept for subsequent analysis
+NOTE: Verticillium_dahliae_Vd_76 is identical to Verticillium_alboatrum_VaMS102 but kept for subsequent analysis
+NOTE: Gibberella_moniliformis_7600 is identical to Fusarium_oxysporum_F11 but kept for subsequent analysis
+NOTE: Gibberella_zeae_PH_1 is identical to Fusarium_gerlachii_CBS_123666 but kept for subsequent analysis
+NOTE: Rhynchosporium_commune_UK7 is identical to Rhynchosporium_agropyri_04CH_RAC_A.6.1 but kept for subsequent analysis
+NOTE: Pneumocystis_jirovecii_Pj_R68 is identical to Pneumocystis_jirovecii_Pj_WI but kept for subsequent analysis
+NOTE: Rhizophagus_irregularis_DAOM_234328 is identical to Rhizophagus_irregularis_DAOM_240415 but kept for subsequent analysis
+NOTE: Rhizophagus_irregularis_MUCL_46241 is identical to Rhizophagus_irregularis_MUCL_46239 but kept for subsequent analysis
+NOTE: Cryptococcus_neoformans_var._grubii_H99 is identical to Cryptococcus_neoformans_var._grubii_serotype_A_strain_H99 but kept for subsequent analysis
+NOTE: Trichosporon_asahii_var._asahii_CBS_8904 is identical to Trichosporon_asahii_var._asahii_CBS_2479 but kept for subsequent analysis
+NOTE: Tilletia_walkeri_TJ23 is identical to Tilletia_indica_F11 but kept for subsequent analysis
+NOTE: Flammulina_velutipes_4019_20 is identical to Flammulina_velutipes_KACC42780 but kept for subsequent analysis
+NOTE: Yarrowia_lipolytica_W29 is identical to Yarrowia_lipolytica_CBS_599 but kept for subsequent analysis
+NOTE: lcl|NC_013839-CasofM_p11.p01-protein is identical to lcl|NC_013839-CasofM_p08.p01-protein but kept for subsequent analysis
+NOTE: Lachancea_kluyveri_55_86.1 is identical to Lachancea_kluyveri_NCYC543 but kept for subsequent analysis
+NOTE: Lachancea_kluyveri_CBS_6547 is identical to Lachancea_kluyveri_CBS_5828 but kept for subsequent analysis
+NOTE: Saccharomyces_cerevisiae_S288c is identical to Saccharomyces_cerevisiae_Kyokai_no._7 but kept for subsequent analysis
+NOTE: 9 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Aspergillus_fumigatus_A1163 (identical to Aspergillus_fumigatus_AF293) is ignored but added at the end
+NOTE: Fusarium_circinatum_MRC_7870 (identical to Fusarium_oxysporum_F11) is ignored but added at the end
+NOTE: Rhynchosporium_secalis_02CH4_6a.1 (identical to Rhynchosporium_agropyri_04CH_RAC_A.6.1) is ignored but added at the end
+NOTE: Pneumocystis_jirovecii_Pj_1368 (identical to Pneumocystis_jirovecii_Pj_WI) is ignored but added at the end
+NOTE: Pneumocystis_jirovecii__NCBI_NC_020331_ (identical to Pneumocystis_jirovecii_Pj_WI) is ignored but added at the end
+NOTE: Rhizophagus_irregularis_DAOM_234179 (identical to Rhizophagus_irregularis_MUCL_46239) is ignored but added at the end
+NOTE: Rhizophagus_intraradices_FACE_494 (identical to Rhizophagus_irregularis_MUCL_46239) is ignored but added at the end
+NOTE: Lachancea_kluyveri_77_1003 (identical to Lachancea_kluyveri_NCYC543) is ignored but added at the end
+NOTE: Saccharomyces_paradoxus_CBS_432 (identical to Saccharomyces_cerevisiae_Kyokai_no._7) is ignored but added at the end
+Alignment was printed to COX2.rename.fasaln.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to COX2.rename.fasaln.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.149 seconds
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+11 trees examined
+Threads: 1 / Time: 16.978 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -67051
+Threads: 2 / Time: 10.680 sec / Speedup: 1.590 / Efficiency: 79% / LogL: -67051
+Threads: 3 / Time: 9.174 sec / Speedup: 1.851 / Efficiency: 62% / LogL: -67051
+Threads: 4 / Time: 7.930 sec / Speedup: 2.141 / Efficiency: 54% / LogL: -67051
+Threads: 5 / Time: 7.823 sec / Speedup: 2.170 / Efficiency: 43% / LogL: -67051
+BEST NUMBER OF THREADS: 4
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -27623.894
+2. Current log-likelihood: -27621.512
+3. Current log-likelihood: -27619.459
+Optimal log-likelihood: -27618.229
+Proportion of invariable sites: 0.018
+Gamma shape alpha: 0.612
+Parameters optimization took 3 rounds (0.862 sec)
+Time for fast ML tree search: 4.554 seconds
+
+NOTE: ModelFinder requires 187 MB RAM!
+ModelFinder will test up to 702 protein models (sample size: 590) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            29746.485    457 60406.971    63578.274    62408.687
+  2  LG+I          29551.050    458 60018.099    63227.596    62024.196
+  3  LG+G4         27626.117    458 56168.235    59377.731    58174.331
+  4  LG+I+G4       27618.311    459 56154.622    59402.929    58165.098
+  5  LG+R2         28366.183    459 57650.367    60898.674    59660.843
+  6  LG+R3         27825.847    461 56573.694    59901.538    58592.931
+  7  LG+R4         27671.206    463 56268.412    59678.444    58296.409
+  8  LG+R5         27594.536    465 56119.072    59614.072    58155.829
+  9  LG+R6         27560.784    467 56055.568    59638.453    58101.085
+ 10  LG+R7         27553.258    469 56044.515    59718.348    58098.793
+ 11  LG+R8         27544.535    471 56031.070    59799.070    58094.107
+ 12  LG+R9         27535.573    473 56017.146    59882.698    58088.944
+ 13  LG+R10        27526.587    475 56003.173    59969.840    58083.732
+ 25  LG+F+R9       27385.120    492 55754.240    60755.395    57909.260
+ 26  LG+F+R10      27373.351    494 55734.702    60882.702    57898.483
+ 38  WAG+R9        27730.642    473 56407.284    60272.835    58479.082
+ 39  WAG+R10       27725.450    475 56400.901    60367.568    58481.459
+ 51  WAG+F+R9      27472.216    492 55928.432    60929.587    58083.453
+ 52  WAG+F+R10     27462.299    494 55912.599    61060.599    58076.379
+ 64  JTT+R9        27768.539    473 56483.079    60348.631    58554.877
+ 65  JTT+R10       27750.672    475 56451.345    60418.011    58531.903
+ 77  JTT+F+R9      27571.967    492 56127.933    61129.088    58282.954
+ 78  JTT+F+R10     27561.596    494 56111.192    61259.192    58274.972
+ 90  Q.pfam+R9     27581.399    473 56108.797    59974.349    58180.595
+ 91  Q.pfam+R10    27570.123    475 56090.246    60056.913    58170.804
+103  Q.pfam+F+R9   27421.182    492 55826.364    60827.518    57981.384
+104  Q.pfam+F+R10  27408.579    494 55805.158    60953.158    57968.939
+116  Q.bird+R9     28436.796    473 57819.591    61685.143    59891.389
+117  Q.bird+R10    28424.342    475 57798.683    61765.350    59879.241
+129  Q.bird+F+R9   28165.701    492 57315.403    62316.558    59470.423
+130  Q.bird+F+R10  28150.178    494 57288.356    62436.356    59452.136
+142  Q.mammal+R9   28190.703    473 57327.406    61192.958    59399.204
+143  Q.mammal+R10  28176.038    475 57302.077    61268.743    59382.635
+155  Q.mammal+F+R9 27914.723    492 56813.445    61814.600    58968.466
+156  Q.mammal+F+R10 27901.894    494 56791.788    61939.788    58955.569
+168  Q.insect+R9   27406.326    473 55758.652    59624.204    57830.450
+169  Q.insect+R10  27394.808    475 55739.616    59706.283    57820.174
+181  Q.insect+F+R9 27399.702    492 55783.404    60784.559    57938.424
+182  Q.insect+F+R10 27387.776    494 55763.552    60911.552    57927.333
+194  Q.plant+R9    27840.149    473 56626.298    60491.850    58698.096
+195  Q.plant+R10   27827.578    475 56605.157    60571.823    58685.715
+207  Q.plant+F+R9  27691.318    492 56366.636    61367.791    58521.657
+208  Q.plant+F+R10 27678.686    494 56345.371    61493.371    58509.152
+220  Q.yeast+R9    27429.658    473 55805.315    59670.867    57877.113
+221  Q.yeast+R10   27416.374    475 55782.748    59749.414    57863.306
+233  Q.yeast+F+R9  27370.011    492 55724.022    60725.177    57879.042
+234  Q.yeast+F+R10 27357.856    494 55703.713    60851.713    57867.493
+246  JTTDCMut+R9   27763.855    473 56473.709    60339.261    58545.507
+247  JTTDCMut+R10  27747.487    475 56444.975    60411.641    58525.533
+259  JTTDCMut+F+R9 27564.912    492 56113.823    61114.978    58268.843
+260  JTTDCMut+F+R10 27554.270    494 56096.541    61244.541    58260.321
+272  DCMut+R9      28189.493    473 57324.985    61190.537    59396.783
+273  DCMut+R10     28184.004    475 57318.008    61284.675    59398.566
+285  DCMut+F+R9    27724.026    492 56432.053    61433.207    58587.073
+286  DCMut+F+R10   27713.891    494 56415.781    61563.781    58579.562
+298  VT+R9         27680.517    473 56307.034    60172.586    58378.832
+299  VT+R10        27676.445    475 56302.889    60269.556    58383.448
+311  VT+F+R9       27484.597    492 55953.193    60954.348    58108.214
+312  VT+F+R10      27471.073    494 55930.145    61078.145    58093.926
+324  PMB+R9        27787.954    473 56521.907    60387.459    58593.705
+325  PMB+R10       27782.614    475 56515.227    60481.894    58595.785
+337  PMB+F+R9      27639.360    492 56262.720    61263.875    58417.740
+338  PMB+F+R10     27636.816    494 56261.632    61409.632    58425.412
+350  Blosum62+R9   27777.877    473 56501.753    60367.305    58573.551
+351  Blosum62+R10  27773.162    475 56496.324    60462.990    58576.882
+363  Blosum62+F+R9 27642.103    492 56268.206    61269.360    58423.226
+364  Blosum62+F+R10 27630.121    494 56248.241    61396.241    58412.022
+376  Dayhoff+R9    28188.624    473 57323.247    61188.799    59395.045
+377  Dayhoff+R10   28183.102    475 57316.204    61282.870    59396.762
+389  Dayhoff+F+R9  27723.728    492 56431.456    61432.610    58586.476
+390  Dayhoff+F+R10 27713.542    494 56415.083    61563.083    58578.864
+402  mtREV+R9      28028.540    473 57003.081    60868.632    59074.879
+403  mtREV+R10     28015.602    475 56981.203    60947.870    59061.761
+415  mtREV+F+R9    27810.024    492 56604.049    61605.203    58759.069
+416  mtREV+F+R10   27797.687    494 56583.375    61731.375    58747.155
+428  mtART+R9      27954.584    473 56855.167    60720.719    58926.965
+429  mtART+R10     27939.220    475 56828.440    60795.107    58908.999
+441  mtART+F+R9    27930.547    492 56845.095    61846.249    59000.115
+442  mtART+F+R10   27915.253    494 56818.506    61966.506    58982.286
+454  mtZOA+R9      27689.404    473 56324.807    60190.359    58396.605
+455  mtZOA+R10     27674.889    475 56299.778    60266.444    58380.336
+467  mtZOA+F+R9    27647.132    492 56278.265    61279.419    58433.285
+468  mtZOA+F+R10   27632.384    494 56252.767    61400.767    58416.548
+480  mtMet+R9      27701.977    473 56349.953    60215.505    58421.751
+481  mtMet+R10     27687.149    475 56324.297    60290.964    58404.856
+493  mtMet+F+R9    27800.714    492 56585.428    61586.582    58740.448
+494  mtMet+F+R10   27787.192    494 56562.384    61710.384    58726.165
+506  mtVer+R9      28386.861    473 57719.723    61585.274    59791.521
+507  mtVer+R10     28369.814    475 57689.627    61656.294    59770.186
+519  mtVer+F+R9    28373.583    492 57731.166    62732.321    59886.186
+520  mtVer+F+R10   28356.898    494 57701.795    62849.795    59865.576
+532  mtInv+R9      27603.081    473 56152.163    60017.714    58223.961
+533  mtInv+R10     27590.055    475 56130.109    60096.776    58210.668
+545  mtInv+F+R9    27543.755    492 56071.509    61072.664    58226.530
+546  mtInv+F+R10   27531.507    494 56051.013    61199.013    58214.794
+558  mtMAM+R9      28691.243    473 58328.486    62194.038    60400.284
+559  mtMAM+R10     28674.349    475 58298.697    62265.364    60379.256
+571  mtMAM+F+R9    28646.870    492 58277.739    63278.894    60432.760
+572  mtMAM+F+R10   28630.449    494 58248.898    63396.898    60412.678
+584  HIVb+R9       28579.989    473 58105.977    61971.529    60177.775
+585  HIVb+R10      28568.581    475 58087.161    62053.828    60167.720
+597  HIVb+F+R9     28260.232    492 57504.464    62505.619    59659.485
+598  HIVb+F+R10    28249.231    494 57486.463    62634.463    59650.243
+610  HIVw+R9       29699.702    473 60345.405    64210.956    62417.203
+611  HIVw+R10      29681.947    475 60313.894    64280.560    62394.452
+623  HIVw+F+R9     29241.854    492 59467.708    64468.862    61622.728
+624  HIVw+F+R10    29226.178    494 59440.355    64588.355    61604.136
+636  FLU+R9        28239.150    473 57424.299    61289.851    59496.097
+637  FLU+R10       28226.665    475 57403.329    61369.996    59483.888
+649  FLU+F+R9      28174.252    492 57332.504    62333.658    59487.524
+650  FLU+F+R10     28160.953    494 57309.906    62457.906    59473.686
+662  rtREV+R9      27895.951    473 56737.902    60603.453    58809.700
+663  rtREV+R10     27878.681    475 56707.361    60674.028    58787.919
+675  rtREV+F+R9    27513.465    492 56010.930    61012.085    58165.950
+676  rtREV+F+R10   27502.994    494 55993.989    61141.989    58157.769
+688  cpREV+R9      27769.371    473 56484.743    60350.294    58556.540
+689  cpREV+R10     27764.611    475 56479.223    60445.889    58559.781
+701  cpREV+F+R9    27617.491    492 56218.983    61220.137    58374.003
+702  cpREV+F+R10   27608.702    494 56205.403    61353.403    58369.184
+Akaike Information Criterion:           Q.yeast+F+R10
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         Q.insect+R10
+Best-fit model: Q.insect+R10 chosen according to BIC
+
+All model information printed to COX2.rename.fasaln.model.gz
+CPU time for ModelFinder: 6357.345 seconds (1h:45m:57s)
+Wall-clock time for ModelFinder: 1623.266 seconds (0h:27m:3s)
+
+---> START RUN NUMBER 1 (seed: 562772)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.058 seconds
+
+NOTE: 187 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -29069.761
+2. Current log-likelihood: -27600.748
+3. Current log-likelihood: -27509.620
+4. Current log-likelihood: -27490.480
+5. Current log-likelihood: -27480.586
+6. Current log-likelihood: -27476.682
+7. Current log-likelihood: -27474.671
+8. Current log-likelihood: -27473.727
+9. Current log-likelihood: -27473.349
+10. Current log-likelihood: -27473.220
+Optimal log-likelihood: -27473.086
+Site proportion and rates:  (0.152,0.027) (0.071,0.096) (0.069,0.167) (0.068,0.167) (0.086,0.290) (0.074,0.292) (0.051,0.469) (0.071,0.769) (0.037,1.272) (0.318,2.490)
+Parameters optimization took 10 rounds (31.549 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 3.759396 sec (of wall-clock time) 13.638621 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.016376 sec (of wall-clock time) 0.079185 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -27757.998
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 5.563 second
+Computing log-likelihood of 98 initial trees ... 16.453 seconds
+Current best score: -27473.086
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -27368.217
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -27351.774
+Iteration 10 / LogL: -27380.149 / Time: 0h:2m:17s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -27335.277
+Iteration 20 / LogL: -27361.322 / Time: 0h:4m:0s
+Finish initializing candidate tree set (20)
+Current best tree score: -27335.277 / CPU time: 201.617
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -27332.351
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -27331.971
+Iteration 30 / LogL: -27331.971 / Time: 0h:4m:59s (0h:17m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -27330.977
+Iteration 40 / LogL: -27359.993 / Time: 0h:5m:48s (0h:13m:58s left)
+Iteration 50 / LogL: -27351.849 / Time: 0h:6m:34s (0h:11m:16s left)
+Iteration 60 / LogL: -27331.562 / Time: 0h:7m:19s (0h:9m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -27329.765
