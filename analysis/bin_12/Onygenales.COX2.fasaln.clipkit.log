@@ -1,0 +1,309 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    x01 (AVX512, FMA3, 502 GB RAM)
+Command: iqtree2 -nt 3 -s Onygenales.COX2.fasaln.clipkit -B 1000 -alrt 1000
+Seed:    685982 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Sep 26 11:18:55 2021
+Kernel:  AVX+FMA - 3 threads (16 CPU cores detected)
+
+Reading alignment file Onygenales.COX2.fasaln.clipkit ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 14 sequences with 278 columns, 101 distinct patterns
+57 parsimony-informative, 14 singleton sites, 207 constant sites
+WARNING: Some sequence names are changed as follows:
+QNS38571.1_Paracoccidioides_sp._'americana' -> QNS38571.1_Paracoccidioides_sp.__americana_
+
+                                             Gap/Ambiguity  Composition  p-value
+   1  QNS38571.1_Paracoccidioides_sp.__americana_    8.63%    passed    100.00%
+   2  QNS38556.1_Paracoccidioides_brasiliensis       8.63%    passed    100.00%
+   3  EEH02519.1_Histoplasma_capsulatum_G186AR       0.36%    passed     99.99%
+   4  COX2_bin12                                     0.36%    passed     99.98%
+   5  AQQ72845.1_Blastomyces_dermatitidis            0.36%    passed     99.99%
+   6  QVG62008.1_Coccidioides_immitis                5.76%    passed    100.00%
+   7  QVG61967.1_Coccidioides_posadasii              5.76%    passed    100.00%
+   8  YP_002970893.1_Microsporum_canis               4.68%    passed    100.00%
+   9  Q01556.1_Trichophyton_rubrum                  14.75%    passed    100.00%
+  10  YP_002970837.1_Arthroderma_uncinatum           4.68%    passed    100.00%
+  11  XP_022643330.1_Nannizzia_gypsea_CBS_118893     5.04%    passed    100.00%
+  12  YP_313628.1_Epidermophyton_floccosum           5.04%    passed    100.00%
+  13  YP_002970809.1_Trichophyton_mentagrophytes     5.04%    passed    100.00%
+  14  YP_002970865.1_Nannizzia_nana                  5.04%    passed    100.00%
+****  TOTAL                                          5.29%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -1560.057
+Optimal log-likelihood: -1560.045
+Proportion of invariable sites: 0.375
+Gamma shape alpha: 0.411
+Parameters optimization took 1 rounds (0.005 sec)
+Time for fast ML tree search: 0.048 seconds
+
+NOTE: ModelFinder requires 3 MB RAM!
+ModelFinder will test up to 702 protein models (sample size: 278) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            1608.760     25  3267.521     3272.679     3358.211
+  2  LG+I          1567.787     26  3187.574     3193.168     3281.892
+  3  LG+G4         1562.909     26  3177.819     3183.412     3272.137
+  4  LG+I+G4       1560.028     27  3174.057     3180.105     3272.003
+  5  LG+R2         1557.078     27  3168.155     3174.203     3266.101
+  6  LG+R3         1556.946     29  3171.892     3178.908     3277.093
+ 16  LG+F+G4       1535.830     45  3161.659     3179.504     3324.902
+ 17  LG+F+I+G4     1532.553     46  3157.106     3175.824     3323.976
+ 18  LG+F+R2       1529.840     46  3151.679     3170.398     3318.550
+ 29  WAG+G4        1564.467     26  3180.934     3186.528     3275.252
+ 30  WAG+I+G4      1562.615     27  3179.230     3185.278     3277.175
+ 31  WAG+R2        1560.707     27  3175.415     3181.463     3273.361
+ 42  WAG+F+G4      1527.792     45  3145.584     3163.428     3308.827
+ 43  WAG+F+I+G4    1525.671     46  3143.342     3162.061     3310.213
+ 44  WAG+F+R2      1523.671     46  3139.342     3158.060     3306.212
+ 55  JTT+G4        1560.931     26  3173.862     3179.455     3268.180
+ 56  JTT+I+G4      1558.554     27  3171.108     3177.156     3269.054
+ 57  JTT+R2        1556.196     27  3166.392     3172.440     3264.338
+ 68  JTT+F+G4      1530.002     45  3150.005     3167.850     3313.248
+ 69  JTT+F+I+G4    1527.440     46  3146.880     3165.599     3313.751
+ 70  JTT+F+R2      1525.293     46  3142.587     3161.306     3309.458
+ 81  Q.pfam+G4     1566.461     26  3184.922     3190.515     3279.240
+ 82  Q.pfam+I+G4   1563.468     27  3180.936     3186.984     3278.882
+ 83  Q.pfam+R2     1560.249     27  3174.498     3180.546     3272.444
+ 94  Q.pfam+F+G4   1536.952     45  3163.904     3181.749     3327.147
+ 95  Q.pfam+F+I+G4 1533.444     46  3158.889     3177.607     3325.759
+ 96  Q.pfam+F+R2   1530.560     46  3153.119     3171.838     3319.990
+107  Q.bird+G4     1585.145     26  3222.289     3227.883     3316.608
+108  Q.bird+I+G4   1581.359     27  3216.717     3222.765     3314.663
+109  Q.bird+R2     1579.574     27  3213.147     3219.195     3311.093
+120  Q.bird+F+G4   1548.197     45  3186.394     3204.239     3349.637
+121  Q.bird+F+I+G4 1543.707     46  3179.413     3198.132     3346.284
+122  Q.bird+F+R2   1542.590     46  3177.181     3195.899     3344.051
+133  Q.mammal+G4   1582.768     26  3217.535     3223.129     3311.853
+134  Q.mammal+I+G4 1579.621     27  3213.242     3219.290     3311.188
+135  Q.mammal+R2   1577.299     27  3208.599     3214.647     3306.545
+146  Q.mammal+F+G4 1542.449     45  3174.899     3192.744     3338.142
+147  Q.mammal+F+I+G4 1538.687     46  3169.375     3188.093     3336.245
+148  Q.mammal+F+R2 1536.958     46  3165.915     3184.634     3332.786
+159  Q.insect+G4   1558.490     26  3168.980     3174.573     3263.298
+160  Q.insect+I+G4 1555.055     27  3164.109     3170.157     3262.055
+161  Q.insect+R2   1551.098     27  3156.197     3162.245     3254.143
+172  Q.insect+F+G4 1537.546     45  3165.092     3182.936     3328.335
+173  Q.insect+F+I+G4 1533.916     46  3159.832     3178.551     3326.703
+174  Q.insect+F+R2 1530.691     46  3153.382     3172.100     3320.252
+185  Q.plant+G4    1565.609     26  3183.217     3188.811     3277.535
+186  Q.plant+I+G4  1562.121     27  3178.241     3184.289     3276.187
+187  Q.plant+R2    1558.922     27  3171.843     3177.891     3269.789
+198  Q.plant+F+G4  1538.881     45  3167.763     3185.608     3331.006
+199  Q.plant+F+I+G4 1535.047     46  3162.095     3180.813     3328.965
+200  Q.plant+F+R2  1532.605     46  3157.210     3175.928     3324.080
+211  Q.yeast+G4    1557.493     26  3166.987     3172.580     3261.305
+212  Q.yeast+I+G4  1553.749     27  3161.499     3167.547     3259.445
+213  Q.yeast+R2    1549.587     27  3153.175     3159.223     3251.120
+224  Q.yeast+F+G4  1539.072     45  3168.144     3185.989     3331.387
+225  Q.yeast+F+I+G4 1535.170     46  3162.340     3181.059     3329.211
+226  Q.yeast+F+R2  1531.672     46  3155.344     3174.063     3322.215
+237  JTTDCMut+G4   1561.907     26  3175.813     3181.407     3270.131
+238  JTTDCMut+I+G4 1559.492     27  3172.984     3179.032     3270.929
+239  JTTDCMut+R2   1557.128     27  3168.257     3174.305     3266.202
+250  JTTDCMut+F+G4 1530.318     45  3150.637     3168.481     3313.880
+251  JTTDCMut+F+I+G4 1527.702     46  3147.404     3166.123     3314.274
+252  JTTDCMut+F+R2 1525.530     46  3143.061     3161.779     3309.931
+263  DCMut+G4      1597.634     26  3247.268     3252.862     3341.587
+264  DCMut+I+G4    1595.105     27  3244.209     3250.257     3342.155
+265  DCMut+R2      1594.385     27  3242.771     3248.819     3340.717
+276  DCMut+F+G4    1542.436     45  3174.872     3192.717     3338.115
+277  DCMut+F+I+G4  1539.718     46  3171.437     3190.156     3338.307
+278  DCMut+F+R2    1538.857     46  3169.714     3188.432     3336.584
+289  VT+G4         1556.861     26  3165.722     3171.315     3260.040
+290  VT+I+G4       1554.750     27  3163.500     3169.548     3261.445
+291  VT+R2         1552.388     27  3158.776     3164.824     3256.722
+302  VT+F+G4       1530.760     45  3151.520     3169.364     3314.762
+303  VT+F+I+G4     1528.475     46  3148.950     3167.669     3315.821
+304  VT+F+R2       1526.274     46  3144.548     3163.267     3311.419
+315  PMB+G4        1562.441     26  3176.882     3182.475     3271.200
+316  PMB+I+G4      1560.576     27  3175.153     3181.201     3273.098
+317  PMB+R2        1558.673     27  3171.346     3177.394     3269.291
+328  PMB+F+G4      1533.864     45  3157.727     3175.572     3320.970
+329  PMB+F+I+G4    1531.720     46  3155.440     3174.159     3322.311
+330  PMB+F+R2      1529.801     46  3151.603     3170.321     3318.473
+341  Blosum62+G4   1563.161     26  3178.322     3183.916     3272.640
+342  Blosum62+I+G4 1560.974     27  3175.948     3181.996     3273.894
+343  Blosum62+R2   1558.979     27  3171.958     3178.006     3269.904
+354  Blosum62+F+G4 1537.602     45  3165.204     3183.049     3328.447
+355  Blosum62+F+I+G4 1535.217     46  3162.435     3181.153     3329.305
+356  Blosum62+F+R2 1533.203     46  3158.406     3177.125     3325.277
+367  Dayhoff+G4    1596.803     26  3245.606     3251.200     3339.924
+368  Dayhoff+I+G4  1594.167     27  3242.334     3248.382     3340.280
+369  Dayhoff+R2    1592.358     27  3238.716     3244.764     3336.662
+380  Dayhoff+F+G4  1541.545     45  3173.089     3190.934     3336.332
+381  Dayhoff+F+I+G4 1538.685     46  3169.369     3188.088     3336.240
+382  Dayhoff+F+R2  1536.776     46  3165.552     3184.270     3332.422
+393  mtREV+G4      1573.526     26  3199.052     3204.646     3293.370
+394  mtREV+I+G4    1571.179     27  3196.358     3202.406     3294.304
+395  mtREV+R2      1569.452     27  3192.904     3198.952     3290.850
+406  mtREV+F+G4    1535.879     45  3161.758     3179.603     3325.001
+407  mtREV+F+I+G4  1533.380     46  3158.759     3177.478     3325.630
+408  mtREV+F+R2    1530.948     46  3153.895     3172.614     3320.766
+419  mtART+G4      1570.036     26  3192.073     3197.666     3286.391
+420  mtART+I+G4    1566.544     27  3187.088     3193.136     3285.034
+421  mtART+R2      1565.070     27  3184.141     3190.189     3282.086
+432  mtART+F+G4    1542.807     45  3175.614     3193.459     3338.857
+433  mtART+F+I+G4  1538.901     46  3169.801     3188.520     3336.672
+434  mtART+F+R2    1536.646     46  3165.292     3184.010     3332.162
+445  mtZOA+G4      1572.433     26  3196.867     3202.460     3291.185
+446  mtZOA+I+G4    1568.971     27  3191.942     3197.990     3289.888
+447  mtZOA+R2      1567.349     27  3188.697     3194.745     3286.643
+458  mtZOA+F+G4    1539.425     45  3168.851     3186.695     3332.094
+459  mtZOA+F+I+G4  1535.496     46  3162.992     3181.711     3329.863
+460  mtZOA+F+R2    1532.421     46  3156.842     3175.561     3323.713
+471  mtMet+G4      1560.841     26  3173.681     3179.275     3267.999
+472  mtMet+I+G4    1557.285     27  3168.571     3174.619     3266.517
+473  mtMet+R2      1554.758     27  3163.516     3169.564     3261.462
+484  mtMet+F+G4    1534.509     45  3159.018     3176.862     3322.261
+485  mtMet+F+I+G4  1530.855     46  3153.710     3172.428     3320.580
+486  mtMet+F+R2    1527.348     46  3146.696     3165.414     3313.566
+497  mtVer+G4      1586.745     26  3225.489     3231.083     3319.807
+498  mtVer+I+G4    1582.099     27  3218.197     3224.245     3316.143
+499  mtVer+R2      1579.825     27  3213.651     3219.699     3311.596
+510  mtVer+F+G4    1545.339     45  3180.678     3198.523     3343.921
+511  mtVer+F+I+G4  1540.325     46  3172.649     3191.368     3339.520
+512  mtVer+F+R2    1536.642     46  3165.284     3184.002     3332.154
+523  mtInv+G4      1566.323     26  3184.647     3190.240     3278.965
+524  mtInv+I+G4    1563.062     27  3180.124     3186.172     3278.070
+525  mtInv+R2      1560.076     27  3174.152     3180.200     3272.098
+536  mtInv+F+G4    1531.389     45  3152.779     3170.624     3316.022
+537  mtInv+F+I+G4  1528.197     46  3148.394     3167.113     3315.265
+538  mtInv+F+R2    1524.583     46  3141.166     3159.885     3308.036
+549  mtMAM+G4      1586.197     26  3224.395     3229.989     3318.713
+550  mtMAM+I+G4    1581.934     27  3217.867     3223.915     3315.813
+551  mtMAM+R2      1581.767     27  3217.534     3223.582     3315.480
+562  mtMAM+F+G4    1550.348     45  3190.696     3208.540     3353.938
+563  mtMAM+F+I+G4  1545.896     46  3183.792     3202.511     3350.663
+564  mtMAM+F+R2    1545.272     46  3182.544     3201.262     3349.414
+575  HIVb+G4       1577.430     26  3206.859     3212.453     3301.178
+576  HIVb+I+G4     1574.497     27  3202.994     3209.042     3300.939
+577  HIVb+R2       1574.093     27  3202.186     3208.234     3300.132
+588  HIVb+F+G4     1543.267     45  3176.533     3194.378     3339.776
+589  HIVb+F+I+G4   1540.107     46  3172.213     3190.932     3339.084
+590  HIVb+F+R2     1539.939     46  3171.879     3190.597     3338.749
+601  HIVw+G4       1604.717     26  3261.434     3267.028     3355.752
+602  HIVw+I+G4     1600.335     27  3254.670     3260.718     3352.615
+603  HIVw+R2       1601.718     27  3257.435     3263.483     3355.381
+614  HIVw+F+G4     1568.754     45  3227.508     3245.353     3390.751
+615  HIVw+F+I+G4   1564.404     46  3220.809     3239.528     3387.680
+616  HIVw+F+R2     1566.094     46  3224.188     3242.907     3391.059
+627  FLU+G4        1564.672     26  3181.344     3186.937     3275.662
+628  FLU+I+G4      1561.984     27  3177.967     3184.015     3275.913
+629  FLU+R2        1560.678     27  3175.356     3181.404     3273.302
+640  FLU+F+G4      1543.463     45  3176.925     3194.770     3340.168
+641  FLU+F+I+G4    1540.343     46  3172.687     3191.405     3339.557
+642  FLU+F+R2      1539.480     46  3170.960     3189.679     3337.831
+653  rtREV+G4      1579.624     26  3211.249     3216.842     3305.567
+654  rtREV+I+G4    1576.479     27  3206.958     3213.006     3304.904
+655  rtREV+R2      1574.193     27  3202.386     3208.434     3300.332
+666  rtREV+F+G4    1541.081     45  3172.162     3190.007     3335.405
+667  rtREV+F+I+G4  1537.244     46  3166.487     3185.206     3333.358
+668  rtREV+F+R2    1534.805     46  3161.610     3180.329     3328.481
+679  cpREV+G4      1552.116     26  3156.232     3161.826     3250.550
+680  cpREV+I+G4    1550.827     27  3155.654     3161.702     3253.599
+681  cpREV+R2      1549.353     27  3152.706     3158.754     3250.652
+692  cpREV+F+G4    1527.145     45  3144.290     3162.135     3307.533
+693  cpREV+F+I+G4  1525.661     46  3143.321     3162.040     3310.192
+694  cpREV+F+R2    1523.877     46  3139.754     3158.473     3306.625
+Akaike Information Criterion:           WAG+F+R2
+Corrected Akaike Information Criterion: WAG+F+R2
+Bayesian Information Criterion:         cpREV+G4
+Best-fit model: cpREV+G4 chosen according to BIC
+
+All model information printed to Onygenales.COX2.fasaln.clipkit.model.gz
+CPU time for ModelFinder: 7.047 seconds (0h:0m:7s)
+Wall-clock time for ModelFinder: 2.379 seconds (0h:0m:2s)
+Generating 1000 samples for ultrafast bootstrap (seed: 685982)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1552.116
+Optimal log-likelihood: -1552.116
+Gamma shape alpha: 0.230
+Parameters optimization took 1 rounds (0.004 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.008972 sec (of wall-clock time) 0.026832 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.000350 sec (of wall-clock time) 0.001391 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1556.553
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.044 second
+Computing log-likelihood of 98 initial trees ... 0.208 seconds
+Current best score: -1552.116
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1552.116
+Iteration 10 / LogL: -1552.134 / Time: 0h:0m:0s
+Iteration 20 / LogL: -1555.695 / Time: 0h:0m:0s
+Finish initializing candidate tree set (3)
+Current best tree score: -1552.116 / CPU time: 0.749
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -1555.696 / Time: 0h:0m:1s (0h:0m:3s left)
+Iteration 40 / LogL: -1552.135 / Time: 0h:0m:1s (0h:0m:2s left)
+Iteration 50 / LogL: -1554.976 / Time: 0h:0m:2s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -1577.615
+Iteration 60 / LogL: -1552.134 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 70 / LogL: -1552.134 / Time: 0h:0m:3s (0h:0m:1s left)
+Iteration 80 / LogL: -1555.698 / Time: 0h:0m:3s (0h:0m:0s left)
+Iteration 90 / LogL: -1555.695 / Time: 0h:0m:3s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -1552.116
+Iteration 100 / LogL: -1555.695 / Time: 0h:0m:4s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1577.286
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1552.116
+Optimal log-likelihood: -1552.116
+Gamma shape alpha: 0.230
+Parameters optimization took 1 rounds (0.005 sec)
+BEST SCORE FOUND : -1552.116
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.021 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Onygenales.COX2.fasaln.clipkit.splits.nex
+Total tree length: 0.617
+
+Total number of iterations: 102
+CPU time used for tree search: 13.542 sec (0h:0m:13s)
+Wall-clock time used for tree search: 4.495 sec (0h:0m:4s)
+Total CPU time used: 13.823 sec (0h:0m:13s)
+Total wall-clock time used: 4.588 sec (0h:0m:4s)
+
+Computing bootstrap consensus tree...
+Reading input file Onygenales.COX2.fasaln.clipkit.splits.nex...
+14 taxa and 98 splits.
+Consensus tree written to Onygenales.COX2.fasaln.clipkit.contree
+Reading input trees file Onygenales.COX2.fasaln.clipkit.contree
+Log-likelihood of consensus tree: -1552.117
+
+Analysis results written to: 
+  IQ-TREE report:                Onygenales.COX2.fasaln.clipkit.iqtree
+  Maximum-likelihood tree:       Onygenales.COX2.fasaln.clipkit.treefile
+  Likelihood distances:          Onygenales.COX2.fasaln.clipkit.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Onygenales.COX2.fasaln.clipkit.splits.nex
+  Consensus tree:                Onygenales.COX2.fasaln.clipkit.contree
+  Screen log file:               Onygenales.COX2.fasaln.clipkit.log
+
+Date and Time: Sun Sep 26 11:19:02 2021
