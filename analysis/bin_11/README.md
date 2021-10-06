@@ -1,0 +1,1 @@
+Bin 11 matches Mitochondrial genome most closely related to Malasseiza. A phylogenetic tree of ATP6 gene was generated to show nested placement within the  Ustilaginomycetes (smuts) with the bin.11 ATP6 protein sequence as sister to Malassezia restricta.
