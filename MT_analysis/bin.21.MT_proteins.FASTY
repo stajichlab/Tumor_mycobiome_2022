@@ -1,0 +1,37 @@
+# fasty36 -E 1e-10 bin.21.fa MT_proteins.fa
+FASTY compares a DNA sequence to a protein sequence data bank
+ version 36.3.8i Nov, 2020
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: bin.21.fa
+  1>>>NODE_9645_length_4642_cov_0_034339 - 4642 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4642 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 370 (370) to 370 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.205), E-opt: 0.1 (0.0599), width:  16
+ Scan time:  1.080
+!! No sequences with E() < 1e-10
+  2>>>NODE_15655_length_3121_cov_0_073130 - 3121 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3121 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 262 (263) to 262 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.18), E-opt: 0.1 (0.0505), width:  16
+ Scan time:  0.940
+!! No sequences with E() < 1e-10
+
+7763 residues in 2 query   sequences
+989828 residues in 3231 library sequences
+ Tcomplib [36.3.8i Nov, 2020] (96 proc in memory [0G])
+ start: Tue Apr  5 17:20:24 2022 done: Tue Apr  5 17:20:27 2022
+ Total Scan time:  2.020 Total Display time:  0.020
+
+Function used was FASTY [36.3.8i Nov, 2020]

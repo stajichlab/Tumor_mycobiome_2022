@@ -1,0 +1,642 @@
+# fasty36 -E 1e-10 bin.15.fa MT_proteins.fa
+FASTY compares a DNA sequence to a protein sequence data bank
+ version 36.3.8i Nov, 2020
+Please cite:
+ Pearson et al, Genomics (1997) 46:24-36
+
+Query: bin.15.fa
+  1>>>NODE_428_length_3723_cov_0_000000 - 3723 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3723 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 213 (213) to 213 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.142), E-opt: 0.1 (0.0344), width:  16
+ Scan time:  0.980
+!! No sequences with E() < 1e-10
+  2>>>NODE_86_length_8091_cov_1_946697 - 8091 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 8091 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 218 (218) to 218 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.147), E-opt: 0.1 (0.0342), width:  16
+ Scan time:  1.350
+!! No sequences with E() < 1e-10
+  3>>>NODE_623_length_3089_cov_0_000000 - 3089 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3089 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 149 (149) to 149 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.142), E-opt: 0.1 (0.0305), width:  16
+ Scan time:  0.950
+!! No sequences with E() < 1e-10
+  4>>>NODE_1098_length_3029_cov_1_078157 - 3029 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3029 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 261 (261) to 261 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.155), E-opt: 0.1 (0.0332), width:  16
+ Scan time:  1.070
+!! No sequences with E() < 1e-10
+  5>>>NODE_487_length_3463_cov_0_000000 - 3463 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3463 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 247 (247) to 247 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.155), E-opt: 0.1 (0.0343), width:  16
+ Scan time:  1.090
+!! No sequences with E() < 1e-10
+  6>>>NODE_288_length_4534_cov_0_000000 - 4534 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4534 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 100 (100) to 100 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.148), E-opt: 0.1 (0.0312), width:  16
+ Scan time:  1.160
+!! No sequences with E() < 1e-10
+  7>>>NODE_468_length_4226_cov_1_621759 - 4226 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4226 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 335 (338) to 335 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.152), E-opt: 0.1 (0.0345), width:  16
+ Scan time:  1.160
+!! No sequences with E() < 1e-10
+  8>>>NODE_579_length_3193_cov_0_000000 - 3193 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3193 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 311 (311) to 311 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.156), E-opt: 0.1 (0.0365), width:  16
+ Scan time:  1.070
+!! No sequences with E() < 1e-10
+  9>>>NODE_690_length_3707_cov_7_800721 - 3707 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3707 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 279 (279) to 279 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.159), E-opt: 0.1 (0.0374), width:  16
+ Scan time:  1.100
+!! No sequences with E() < 1e-10
+ 10>>>NODE_587_length_3175_cov_0_000000 - 3175 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3175 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 287 (289) to 287 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.162), E-opt: 0.1 (0.0381), width:  16
+ Scan time:  1.080
+!! No sequences with E() < 1e-10
+ 11>>>NODE_238_length_4940_cov_0_000000 - 4940 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4940 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 107 (107) to 107 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.159), E-opt: 0.1 (0.0362), width:  16
+ Scan time:  1.200
+!! No sequences with E() < 1e-10
+ 12>>>NODE_500_length_4145_cov_1_292140 - 4145 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4145 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 235 (238) to 235 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.161), E-opt: 0.1 (0.0363), width:  16
+ Scan time:  1.140
+!! No sequences with E() < 1e-10
+ 13>>>NODE_482_length_3493_cov_0_000000 - 3493 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3493 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 232 (232) to 232 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.161), E-opt: 0.1 (0.0364), width:  16
+ Scan time:  1.090
+!! No sequences with E() < 1e-10
+ 14>>>NODE_938_length_3246_cov_1_647601 - 3246 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3246 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 187 (187) to 187 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.16), E-opt: 0.1 (0.036), width:  16
+ Scan time:  1.060
+!! No sequences with E() < 1e-10
+ 15>>>NODE_329_length_4891_cov_1_050083 - 4891 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4891 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 197 (197) to 197 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.16), E-opt: 0.1 (0.0357), width:  16
+ Scan time:  1.210
+!! No sequences with E() < 1e-10
+ 16>>>NODE_170_length_6251_cov_1_677991 - 6251 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 6251 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 322 (323) to 322 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.16), E-opt: 0.1 (0.0367), width:  16
+ Scan time:  1.320
+!! No sequences with E() < 1e-10
+ 17>>>NODE_912_length_3281_cov_3_916405 - 3281 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3281 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 275 (275) to 275 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.16), E-opt: 0.1 (0.037), width:  16
+ Scan time:  1.060
+!! No sequences with E() < 1e-10
+ 18>>>NODE_484_length_4185_cov_9_685267 - 4185 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4185 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 142 (142) to 142 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.158), E-opt: 0.1 (0.0362), width:  16
+ Scan time:  1.140
+!! No sequences with E() < 1e-10
+ 19>>>NODE_768_length_3553_cov_1_005790 - 3553 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3553 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 153 (153) to 153 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.156), E-opt: 0.1 (0.0357), width:  16
+ Scan time:  1.100
+!! No sequences with E() < 1e-10
+ 20>>>NODE_882_length_3343_cov_1_217016 - 3343 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3343 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 383 (392) to 383 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.158), E-opt: 0.1 (0.037), width:  16
+ Scan time:  1.090
+!! No sequences with E() < 1e-10
+ 21>>>NODE_709_length_3665_cov_1_545990 - 3665 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3665 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 195 (195) to 195 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.159), E-opt: 0.1 (0.0367), width:  16
+ Scan time:  1.110
+!! No sequences with E() < 1e-10
+ 22>>>NODE_74_length_8463_cov_1_271760 - 8463 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 8463 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 232 (232) to 232 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.157), E-opt: 0.1 (0.0367), width:  16
+ Scan time:  1.510
+!! No sequences with E() < 1e-10
+ 23>>>NODE_833_length_3425_cov_1_387252 - 3425 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3425 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 168 (168) to 168 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.156), E-opt: 0.1 (0.0362), width:  16
+ Scan time:  1.070
+!! No sequences with E() < 1e-10
+ 24>>>NODE_175_length_6192_cov_1_303135 - 6192 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 6192 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 249 (249) to 249 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.155), E-opt: 0.1 (0.0364), width:  16
+ Scan time:  1.340
+!! No sequences with E() < 1e-10
+ 25>>>NODE_483_length_3491_cov_0_000000 - 3491 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3491 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 100 (101) to 100 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.154), E-opt: 0.1 (0.0355), width:  16
+ Scan time:  1.080
+!! No sequences with E() < 1e-10
+ 26>>>NODE_260_length_4729_cov_0_000000 - 4729 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4729 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 108 (109) to 108 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.151), E-opt: 0.1 (0.0348), width:  16
+ Scan time:  1.170
+!! No sequences with E() < 1e-10
+ 27>>>NODE_459_length_3588_cov_0_000000 - 3588 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3588 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 302 (302) to 302 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.152), E-opt: 0.1 (0.0353), width:  16
+ Scan time:  1.100
+!! No sequences with E() < 1e-10
+ 28>>>NODE_266_length_5271_cov_1_412800 - 5271 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 5271 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 313 (313) to 313 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.153), E-opt: 0.1 (0.0358), width:  16
+ Scan time:  1.240
+!! No sequences with E() < 1e-10
+ 29>>>NODE_680_length_3729_cov_1_652342 - 3729 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3729 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 226 (226) to 226 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.154), E-opt: 0.1 (0.0358), width:  16
+ Scan time:  1.120
+!! No sequences with E() < 1e-10
+ 30>>>NODE_674_length_3736_cov_1_339016 - 3736 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3736 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 190 (190) to 190 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.155), E-opt: 0.1 (0.0356), width:  16
+ Scan time:  1.130
+!! No sequences with E() < 1e-10
+ 31>>>NODE_753_length_3594_cov_1_287554 - 3594 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3594 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 164 (164) to 164 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.153), E-opt: 0.1 (0.0353), width:  16
+ Scan time:  1.090
+!! No sequences with E() < 1e-10
+ 32>>>NODE_128_length_6767_cov_0_982753 - 6767 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 6767 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 148 (148) to 148 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.153), E-opt: 0.1 (0.0349), width:  16
+ Scan time:  1.350
+!! No sequences with E() < 1e-10
+ 33>>>NODE_186_length_6027_cov_0_819669 - 6027 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 6027 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 218 (218) to 218 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.152), E-opt: 0.1 (0.0349), width:  16
+ Scan time:  1.300
+!! No sequences with E() < 1e-10
+ 34>>>NODE_891_length_3328_cov_1_008671 - 3328 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3328 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 197 (197) to 197 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.152), E-opt: 0.1 (0.0348), width:  16
+ Scan time:  1.090
+!! No sequences with E() < 1e-10
+ 35>>>NODE_402_length_3814_cov_0_000000 - 3814 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3814 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 168 (168) to 168 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.151), E-opt: 0.1 (0.0346), width:  16
+ Scan time:  1.100
+!! No sequences with E() < 1e-10
+ 36>>>NODE_275_length_5214_cov_1_108504 - 5214 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 5214 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 340 (340) to 340 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.152), E-opt: 0.1 (0.0351), width:  16
+ Scan time:  1.250
+!! No sequences with E() < 1e-10
+ 37>>>NODE_64_length_9289_cov_0_857671 - 9289 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 9289 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 167 (167) to 167 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.152), E-opt: 0.1 (0.0349), width:  16
+ Scan time:  1.580
+!! No sequences with E() < 1e-10
+ 38>>>NODE_131_length_6702_cov_0_876723 - 6702 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 6702 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 190 (196) to 190 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.152), E-opt: 0.1 (0.0348), width:  16
+ Scan time:  1.350
+!! No sequences with E() < 1e-10
+ 39>>>NODE_889_length_3332_cov_1_057841 - 3332 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3332 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 61 (62) to 61 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.15), E-opt: 0.1 (0.0342), width:  16
+ Scan time:  1.070
+!! No sequences with E() < 1e-10
+ 40>>>NODE_351_length_4162_cov_0_000000 - 4162 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4162 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 215 (215) to 215 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.15), E-opt: 0.1 (0.0342), width:  16
+ Scan time:  1.140
+!! No sequences with E() < 1e-10
+ 41>>>NODE_757_length_3578_cov_1_296350 - 3578 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3578 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 184 (184) to 184 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.15), E-opt: 0.1 (0.0341), width:  16
+ Scan time:  1.100
+!! No sequences with E() < 1e-10
+ 42>>>NODE_202_length_5834_cov_1_578204 - 5834 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 5834 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 243 (244) to 243 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.151), E-opt: 0.1 (0.0342), width:  16
+ Scan time:  1.280
+!! No sequences with E() < 1e-10
+ 43>>>NODE_361_length_4129_cov_0_000000 - 4129 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4129 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 149 (149) to 149 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.15), E-opt: 0.1 (0.034), width:  16
+ Scan time:  1.140
+!! No sequences with E() < 1e-10
+ 44>>>NODE_1103_length_3021_cov_1_218344 - 3021 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3021 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 99 (99) to 99 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.15), E-opt: 0.1 (0.0336), width:  16
+ Scan time:  1.040
+!! No sequences with E() < 1e-10
+ 45>>>NODE_588_length_3926_cov_1_870917 - 3926 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3926 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 111 (111) to 111 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.149), E-opt: 0.1 (0.0332), width:  16
+ Scan time:  1.120
+!! No sequences with E() < 1e-10
+ 46>>>NODE_165_length_6285_cov_1_118493 - 6285 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 6285 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 340 (340) to 340 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.15), E-opt: 0.1 (0.0337), width:  16
+ Scan time:  1.340
+!! No sequences with E() < 1e-10
+ 47>>>NODE_923_length_3265_cov_2_055275 - 3265 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3265 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 257 (258) to 257 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.15), E-opt: 0.1 (0.0338), width:  16
+ Scan time:  1.090
+!! No sequences with E() < 1e-10
+ 48>>>NODE_566_length_3981_cov_1_822772 - 3981 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3981 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 116 (116) to 116 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.149), E-opt: 0.1 (0.0335), width:  16
+ Scan time:  1.120
+!! No sequences with E() < 1e-10
+ 49>>>NODE_171_length_6223_cov_1_801764 - 6223 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 6223 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 160 (160) to 160 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.148), E-opt: 0.1 (0.0333), width:  16
+ Scan time:  1.310
+!! No sequences with E() < 1e-10
+ 50>>>NODE_465_length_4238_cov_1_829427 - 4238 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 4238 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 247 (247) to 247 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.148), E-opt: 0.1 (0.0334), width:  16
+ Scan time:  1.160
+!! No sequences with E() < 1e-10
+ 51>>>NODE_661_length_3754_cov_0_801368 - 3754 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3754 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 246 (246) to 246 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.148), E-opt: 0.1 (0.0335), width:  16
+ Scan time:  1.110
+!! No sequences with E() < 1e-10
+ 52>>>NODE_108_length_7387_cov_1_915477 - 7387 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 7387 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 142 (142) to 142 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.147), E-opt: 0.1 (0.0333), width:  16
+ Scan time:  1.410
+!! No sequences with E() < 1e-10
+ 53>>>NODE_1003_length_3163_cov_1_989883 - 3163 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3163 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 317 (317) to 317 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.147), E-opt: 0.1 (0.0337), width:  16
+ Scan time:  1.070
+!! No sequences with E() < 1e-10
+ 54>>>NODE_83_length_8168_cov_1_540464 - 8168 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 8168 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 242 (245) to 242 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.148), E-opt: 0.1 (0.0338), width:  16
+ Scan time:  1.510
+!! No sequences with E() < 1e-10
+ 55>>>NODE_590_length_3167_cov_0_000000 - 3167 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3167 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 119 (119) to 119 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.147), E-opt: 0.1 (0.0335), width:  16
+ Scan time:  1.060
+!! No sequences with E() < 1e-10
+ 56>>>NODE_909_length_3289_cov_1_757367 - 3289 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3289 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 142 (142) to 142 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.147), E-opt: 0.1 (0.0333), width:  16
+ Scan time:  1.080
+!! No sequences with E() < 1e-10
+ 57>>>NODE_1041_length_3112_cov_1_776635 - 3112 aa
+Library: MT_proteins.fa
+   989828 residues in  3231 sequences
+
+Statistics: Altschul/Gish params: n0: 3112 Lambda: 0.188 K: 0.034 H: 0.170
+ statistics sampled from 214 (220) to 214 sequences
+Algorithm: FASTY (3.8 June 2014) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -12/ -2, shift: -20, subs: -24
+ ktup: 2, E-join: 0.5 (0.146), E-opt: 0.1 (0.0333), width:  16
+ Scan time:  1.090
+!! No sequences with E() < 1e-10
+
+256596 residues in 57 query   sequences
+989828 residues in 3231 library sequences
+ Tcomplib [36.3.8i Nov, 2020] (96 proc in memory [0G])
+ start: Tue Apr  5 17:16:22 2022 done: Tue Apr  5 17:17:31 2022
+ Total Scan time: 66.640 Total Display time:  0.610
+
+Function used was FASTY [36.3.8i Nov, 2020]
