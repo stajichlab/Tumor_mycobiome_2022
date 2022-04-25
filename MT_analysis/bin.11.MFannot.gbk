@@ -1,0 +1,130 @@
+LOCUS       C_0                     3682 bp    DNA     circular     25-APR-2022
+DEFINITION  Genus species.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Genus species
+  ORGANISM  Genus species
+            Unclassified.
+REFERENCE   1  (bases 1 to 3682)
+  AUTHORS   Last,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2022) Division, Affilation, Street, City,
+            Province X9X 8Y8, Country
+COMMENT     Complete genome.
+FEATURES             Location/Qualifiers
+     source          1..3682
+                     /organism="Genus species"
+                     /mol_type="genomic DNA"
+                     /note="type: genomic"
+     gene            complement(2..562)
+                     /gene="atp6"
+     CDS             complement(2..562)
+                     /gene="atp6"
+                     /EC_number="7.1.2.2"
+                     /codon_start=1
+                     /transl_table=3
+                     /product="ATP synthase F0 subunit a"
+                     /translation="MTYNIHSPTEQFEVVSTAYTEIPYFGHVATTNTGTYTIITVFFV
+                     TAFHITGFNHKIVPSRWSTSTESSFASVHGTVKSQVGAANERFTPFVYSTFFFTTFAN
+                     TNGNIPYGFTVTTSAIVSMGTSVIVFIGVTITGTSIHKVHFFSFFVPAGTPTATVPFT
+                     APIETISYTARATSTGVRTTANMAAGH"
+     gene            935..2268
+                     /gene="rns"
+     rRNA            935..2268
+                     /gene="rns"
+                     /product="small subunit ribosomal RNA"
+     gene            2365..2447
+                     /gene="trnS(gct)"
+     tRNA            2365..2447
+                     /gene="trnS(gct)"
+                     /product="tRNA-Ser"
+                     /anticodon=(pos:2398..2400,aa:Ser,seq:gct)
+     gene            2635..3081
+                     /gene="cox1"
+     CDS             2635..3081
+                     /gene="cox1"
+                     /EC_number="1.9.3.1"
+                     /codon_start=1
+                     /transl_table=3
+                     /product="cytochrome c oxidase subunit 1"
+                     /translation="MTRWTYSTNAKDIGTTYTIFAVFSGTTGTGFSITIRAETAAPGV
+                     QVTGGNHQTFNVIITAHAFTMVFFTVMPATMGGFGNYFTPVMVGAVDMAFPRTNNISF
+                     WTTVPSTITTTASAFVEQGAGSGWTVKKDKTSVNTTRCGKTTKYIE"
+     gene            3033..3682
+                     /gene="orf216"
+     CDS             3033..3682
+                     /gene="orf216"
+                     /note="LAGLIDADG"
+                     /codon_start=1
+                     /transl_table=3
+                     /product="hypothetical protein"
+                     /translation="-
+                     GKHYSMRETPQMYWMMYTEMNTFTMKYKMMKENVKMSSTWGQSAWFKSYKKYVFGPSE
+                     TTRSAFYSMTAKNSPENVFHQWTVGMVDGDGCFYFGKTKKGTWTFCFKVGQSQYNTRV
+                     TYFMKKMTGVGHITVPSKASSCAEYRIRNMIHTKEKITPIFDKYPTTTSKQFVYETFR
+                     ESTTVYTDNNTSKDEKEKTTVYNKSKKTPTNYMSFVWKGMN"
+ORIGIN      
+        1 agtgtccagc agccatatta gctagtagcc gtactcccag tgaaagtgca cgagctagat
+       61 aagaaattag ttcaataggt gcaaggaaag gaactagagc aagaggagta cctgcaggaa
+      121 caaagaatga gaagaagtgt actttatgga tacttagtcc aaggatagta acaccaataa
+      181 atacaataac actaagtccc atagaaacaa tagctgatgt agtaactgtg aatccgtatg
+      241 ggatatttcc gtttaggtta gcgaatagta ggaagaagaa tagagaataa acaaaaggaa
+      301 ggaatcgttc gttagctgca ccaacttgtg atttaacaag tccatgaaca gaagcgaaac
+      361 tagattcaag tgaaagactc catcggctag gaacaatttt gtggttgaat cctagaatat
+      421 ggaatgctag aacaaagaat acagtaatga tagtatatag tccaagattt gttagagcaa
+      481 catgtccgaa atatgggatt tcagtgtagg caagactaac aacctcgaat tgttcaagag
+      541 gtgaatggat attatatagc ataatgaata aattcatgat aatgatcatg taggtatatc
+      601 aagattatct aataggaatt gaatggcatg ttttgccaca actttcttac ttatatgaga
+      661 atatagaagg atgagatgaa ctaggagtat tttttttaag gtaagggatg tatatgttgt
+      721 ggagtgggta gggaatataa tagaattttt tgcagagggt atagaatatt atgtaaggat
+      781 acatactatt tatgtaaata cttatatata aataagtaat tagtagagta tttaaaggaa
+      841 gtattatctt gatatgactg atatatttta tcataaaact tctagaatta tctatataat
+      901 tcattgtata tgatatagat ggatattaga agtatattgt aattgtttaa tcttagcaaa
+      961 gttcgaacgt tatctggtag ttttactcat gcaagtcata tatatatacg tatatatggc
+     1021 gcgcaggcga ggaatacaaa gaatagatgc cttgatattt tgatagattc attctttgtt
+     1081 ttgtaggtag ttggtacgat agtggcgtac caagccggtg acaaatagga aagagcgaaa
+     1141 gcttctattc ccgcaattgg ttttaataaa ccgatcgatc agttgtctga ttgctgcaga
+     1201 ggagaatctt gggcaatgct cgaaagagtg acccagctaa ccagaactcg aagtatagta
+     1261 gagtgtggta agggaggata atgacgttac cttactatta gtccaatcta agtctcgtgc
+     1321 cagcagacgc ggttatacga actgggcgaa cgttgaataa attaataggt tttaaggatc
+     1381 tgtaggcggt tattagaaag aataactaga attctatgga ggaaaataga atgctagaag
+     1441 tagagatgat attcgttgag atctagtgga atactaaagg cgaaagcaat tttccaggta
+     1501 agaattgacg ctgagagatg aaagtttggg gagcgaaaca gattagctac ctgagtagtc
+     1561 caaaccgtaa actatttaca ctgacccttt ggttcatagt aatatgagaa aataatcaga
+     1621 gggaaagcga aaggctgtat gtgtaacacc ttgttagtaa tgccgcaagg ttgaaagcaa
+     1681 aaagattaga ccatccttaa gaaccggtgt ggagcatgtt gtttaatacg aaaatacgcg
+     1741 taaaacctta cctctccttg tatatcttag tatcgtcatt ttttctaaaa atgataaata
+     1801 agatacaggc gttgcatggc tgtcgtcagt tcgtgtcgta agatgttagg ttcagtccgc
+     1861 taacgaacgc aatccatgga aggaatcaat tctttcttct atcaacttga taaaagtgat
+     1921 atgatggatt acgataagtc gtcatgaccc ttatggagta tgggctacag acgtgctact
+     1981 aaaatctaac aataagaggc aaaatcgtaa gattgagcaa atctatgaaa taagattcga
+     2041 taaggattgt ggactgaaat tcgtccacat gaatcaggaa taccgagtaa tcgtttatta
+     2101 gtatgaaacg gtgaaccact cattagggag atactaactg tctatcacat cttggttttg
+     2161 tttgactacg gaactcggaa tgtcaatgaa gaggacgttt agaatagaac tgaggtgaag
+     2221 ttatagcaag gtagccgtaa gggaacttgc ggctgaatta taatttatca atttttcccc
+     2281 ttgtatcttt ttatataagg tatactatat atactgaact ataatatatt atctactttt
+     2341 ataaaatgct gtagaatgaa ttatggacaa acggctattg gtgaagtaag ggtaattgct
+     2401 aattatctgg gtataaaccc gtgggagttc gaatctcctt ttgtccttag aaaaaaataa
+     2461 gatatatgaa gtaatatgta tgtatttaac attggagatt cgatactctc tgcaatattg
+     2521 gattgctgga gttctaatct cccttttttc taataagttt ataatcgaaa tgtatagaac
+     2581 atctacttag atatatccta ataagaatcg agtattccca acaatagagc tattatgact
+     2641 cgatggcttt attctacaaa tgctaaagat attggtactc tttaccttat ctttgctgta
+     2701 ttctcaggac tactaggtac aggattctca atcctaattc gtgctgaact agctgcgcct
+     2761 ggtgttcaag ttctgggagg aaatcatcaa ctatttaatg tgattattac agctcacgca
+     2821 ttcctaatgg tattcttcct agtaatgcca gctctaatgg gtggattcgg taactacttc
+     2881 actcctgtaa tggtaggtgc tgtagatatg gctttcccac gactaaataa cattagtttc
+     2941 tggctactag tacctagcct aattctacta ctagctagtg cattcgtaga acaaggggct
+     3001 ggatcaggat ggacagttaa aaaggataag ctgtcggtaa acactactcg atgcgggaaa
+     3061 ctcctcaaat atattgaata atatatacgg agatgaatac ttttcttatg aaatataaaa
+     3121 tgatgaaaga aaatgtaaaa atgtcatcaa catggggaca atccgcctgg tttaaatcat
+     3181 ataaaaaata tgtatttgga ccatcagaga ctacacgtag tgcattttat agtatgcttg
+     3241 ctaaaaattc tccagaaaat gtatttcatc aatggcttgt tggaatagta gatggagatg
+     3301 gttgtttcta ctttggtaaa acaaagaaag gtacttgaac tttctgtttt aaagtaggtc
+     3361 aaagtcaata taatcttcgt gttctttatt ttatgaaaaa aatgctaggt gtaggtcata
+     3421 ttacagtacc ttctaaagca tcttcatgtg cagagtatcg aattcgaaat atgattcatc
+     3481 ttaaagaaaa aattctgcct atttttgata agtatcctct actaacttcc aaacaatttg
+     3541 tttatgaaac atttcgtgag agtcttcttg tttatctaga taataatcta agtaaagatg
+     3601 agaaagaaaa actgcttgtt tataataaaa gtaagaaaac accaacaaac tatatatctt
+     3661 ttgtatgaaa aggtataaat ga
+//

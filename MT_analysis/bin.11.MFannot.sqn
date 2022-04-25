@@ -1,0 +1,430 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Last" ,
+            first "First" ,
+            initials "F." } ,
+        affil
+          std {
+            affil "Affilation" ,
+            div "Division" ,
+            city "City" ,
+            sub "Province" ,
+            country "Country" ,
+            street "Street" ,
+            email "Name@serveur.com" ,
+            fax "999 999-9999" ,
+            phone "999 999-9999" ,
+            postal-code "X9X 8Y8" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Last" ,
+                  first "First" ,
+                  initials "F." } } } ,
+        affil
+          std {
+            affil "Affilation" ,
+            div "Division" ,
+            city "City" ,
+            sub "Province" ,
+            country "Country" ,
+            street "Street" ,
+            postal-code "X9X 8Y8" } } ,
+      date
+        std {
+          year 2022 ,
+          month 4 ,
+          day 25 } } ,
+    subtype new ,
+    tool "tbl2asn 25.8 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                org {
+                  taxname "Genus species" ,
+                  orgname {
+                    mod {
+                      {
+                        subtype type ,
+                        subname "genomic" } } ,
+                    gcode 3 ,
+                    mgcode 3 } } } ,
+              comment "Complete genome" ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 4 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 25 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2022 } } } ,
+              create-date
+                std {
+                  year 2022 ,
+                  month 4 ,
+                  day 25 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "C_0" } ,
+                descr {
+                  molinfo {
+                    biomol genomic ,
+                    completeness complete } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 3682 ,
+                  topology circular ,
+                  seq-data
+                    iupacna "AGTGTCCAGCAGCCATATTAGCTAGTAGCCGTACTCCCAGTGAAAGTGC
+ACGAGCTAGATAAGAAATTAGTTCAATAGGTGCAAGGAAAGGAACTAGAGCAAGAGGAGTACCTGCAGGAACAAAGAA
+TGAGAAGAAGTGTACTTTATGGATACTTAGTCCAAGGATAGTAACACCAATAAATACAATAACACTAAGTCCCATAGA
+AACAATAGCTGATGTAGTAACTGTGAATCCGTATGGGATATTTCCGTTTAGGTTAGCGAATAGTAGGAAGAAGAATAG
+AGAATAAACAAAAGGAAGGAATCGTTCGTTAGCTGCACCAACTTGTGATTTAACAAGTCCATGAACAGAAGCGAAACT
+AGATTCAAGTGAAAGACTCCATCGGCTAGGAACAATTTTGTGGTTGAATCCTAGAATATGGAATGCTAGAACAAAGAA
+TACAGTAATGATAGTATATAGTCCAAGATTTGTTAGAGCAACATGTCCGAAATATGGGATTTCAGTGTAGGCAAGACT
+AACAACCTCGAATTGTTCAAGAGGTGAATGGATATTATATAGCATAATGAATAAATTCATGATAATGATCATGTAGGT
+ATATCAAGATTATCTAATAGGAATTGAATGGCATGTTTTGCCACAACTTTCTTACTTATATGAGAATATAGAAGGATG
+AGATGAACTAGGAGTATTTTTTTTAAGGTAAGGGATGTATATGTTGTGGAGTGGGTAGGGAATATAATAGAATTTTTT
+GCAGAGGGTATAGAATATTATGTAAGGATACATACTATTTATGTAAATACTTATATATAAATAAGTAATTAGTAGAGT
+ATTTAAAGGAAGTATTATCTTGATATGACTGATATATTTTATCATAAAACTTCTAGAATTATCTATATAATTCATTGT
+ATATGATATAGATGGATATTAGAAGTATATTGTAATTGTTTAATCTTAGCAAAGTTCGAACGTTATCTGGTAGTTTTA
+CTCATGCAAGTCATATATATATACGTATATATGGCGCGCAGGCGAGGAATACAAAGAATAGATGCCTTGATATTTTGA
+TAGATTCATTCTTTGTTTTGTAGGTAGTTGGTACGATAGTGGCGTACCAAGCCGGTGACAAATAGGAAAGAGCGAAAG
+CTTCTATTCCCGCAATTGGTTTTAATAAACCGATCGATCAGTTGTCTGATTGCTGCAGAGGAGAATCTTGGGCAATGC
+TCGAAAGAGTGACCCAGCTAACCAGAACTCGAAGTATAGTAGAGTGTGGTAAGGGAGGATAATGACGTTACCTTACTA
+TTAGTCCAATCTAAGTCTCGTGCCAGCAGACGCGGTTATACGAACTGGGCGAACGTTGAATAAATTAATAGGTTTTAA
+GGATCTGTAGGCGGTTATTAGAAAGAATAACTAGAATTCTATGGAGGAAAATAGAATGCTAGAAGTAGAGATGATATT
+CGTTGAGATCTAGTGGAATACTAAAGGCGAAAGCAATTTTCCAGGTAAGAATTGACGCTGAGAGATGAAAGTTTGGGG
+AGCGAAACAGATTAGCTACCTGAGTAGTCCAAACCGTAAACTATTTACACTGACCCTTTGGTTCATAGTAATATGAGA
+AAATAATCAGAGGGAAAGCGAAAGGCTGTATGTGTAACACCTTGTTAGTAATGCCGCAAGGTTGAAAGCAAAAAGATT
+AGACCATCCTTAAGAACCGGTGTGGAGCATGTTGTTTAATACGAAAATACGCGTAAAACCTTACCTCTCCTTGTATAT
+CTTAGTATCGTCATTTTTTCTAAAAATGATAAATAAGATACAGGCGTTGCATGGCTGTCGTCAGTTCGTGTCGTAAGA
+TGTTAGGTTCAGTCCGCTAACGAACGCAATCCATGGAAGGAATCAATTCTTTCTTCTATCAACTTGATAAAAGTGATA
+TGATGGATTACGATAAGTCGTCATGACCCTTATGGAGTATGGGCTACAGACGTGCTACTAAAATCTAACAATAAGAGG
+CAAAATCGTAAGATTGAGCAAATCTATGAAATAAGATTCGATAAGGATTGTGGACTGAAATTCGTCCACATGAATCAG
+GAATACCGAGTAATCGTTTATTAGTATGAAACGGTGAACCACTCATTAGGGAGATACTAACTGTCTATCACATCTTGG
+TTTTGTTTGACTACGGAACTCGGAATGTCAATGAAGAGGACGTTTAGAATAGAACTGAGGTGAAGTTATAGCAAGGTA
+GCCGTAAGGGAACTTGCGGCTGAATTATAATTTATCAATTTTTCCCCTTGTATCTTTTTATATAAGGTATACTATATA
+TACTGAACTATAATATATTATCTACTTTTATAAAATGCTGTAGAATGAATTATGGACAAACGGCTATTGGTGAAGTAA
+GGGTAATTGCTAATTATCTGGGTATAAACCCGTGGGAGTTCGAATCTCCTTTTGTCCTTAGAAAAAAATAAGATATAT
+GAAGTAATATGTATGTATTTAACATTGGAGATTCGATACTCTCTGCAATATTGGATTGCTGGAGTTCTAATCTCCCTT
+TTTTCTAATAAGTTTATAATCGAAATGTATAGAACATCTACTTAGATATATCCTAATAAGAATCGAGTATTCCCAACA
+ATAGAGCTATTATGACTCGATGGCTTTATTCTACAAATGCTAAAGATATTGGTACTCTTTACCTTATCTTTGCTGTAT
+TCTCAGGACTACTAGGTACAGGATTCTCAATCCTAATTCGTGCTGAACTAGCTGCGCCTGGTGTTCAAGTTCTGGGAG
+GAAATCATCAACTATTTAATGTGATTATTACAGCTCACGCATTCCTAATGGTATTCTTCCTAGTAATGCCAGCTCTAA
+TGGGTGGATTCGGTAACTACTTCACTCCTGTAATGGTAGGTGCTGTAGATATGGCTTTCCCACGACTAAATAACATTA
+GTTTCTGGCTACTAGTACCTAGCCTAATTCTACTACTAGCTAGTGCATTCGTAGAACAAGGGGCTGGATCAGGATGGA
+CAGTTAAAAAGGATAAGCTGTCGGTAAACACTACTCGATGCGGGAAACTCCTCAAATATATTGAATAATATATACGGA
+GATGAATACTTTTCTTATGAAATATAAAATGATGAAAGAAAATGTAAAAATGTCATCAACATGGGGACAATCCGCCTG
+GTTTAAATCATATAAAAAATATGTATTTGGACCATCAGAGACTACACGTAGTGCATTTTATAGTATGCTTGCTAAAAA
+TTCTCCAGAAAATGTATTTCATCAATGGCTTGTTGGAATAGTAGATGGAGATGGTTGTTTCTACTTTGGTAAAACAAA
+GAAAGGTACTTGAACTTTCTGTTTTAAAGTAGGTCAAAGTCAATATAATCTTCGTGTTCTTTATTTTATGAAAAAAAT
+GCTAGGTGTAGGTCATATTACAGTACCTTCTAAAGCATCTTCATGTGCAGAGTATCGAATTCGAAATATGATTCATCT
+TAAAGAAAAAATTCTGCCTATTTTTGATAAGTATCCTCTACTAACTTCCAAACAATTTGTTTATGAAACATTTCGTGA
+GAGTCTTCTTGTTTATCTAGATAATAATCTAAGTAAAGATGAGAAAGAAAAACTGCTTGTTTATAATAAAAGTAAGAA
+AACACCAACAAACTATATATCTTTTGTATGAAAAGGTATAAATGA" } ,
+                annot {
+                  {
+                    desc {
+                      name "Table1" } ,
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "atp6" } ,
+                          location
+                            int {
+                              from 1 ,
+                              to 561 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "rns" } ,
+                          location
+                            int {
+                              from 934 ,
+                              to 2267 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "small subunit ribosomal RNA" } ,
+                          location
+                            int {
+                              from 934 ,
+                              to 2267 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(gct)" } ,
+                          location
+                            int {
+                              from 2364 ,
+                              to 2446 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 ,
+                                  anticodon
+                                    int {
+                                      from 2397 ,
+                                      to 2399 ,
+                                      strand plus ,
+                                      id
+                                        local
+                                          str "C_0" } } } ,
+                          location
+                            int {
+                              from 2364 ,
+                              to 2446 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "cox1" } ,
+                          location
+                            int {
+                              from 2634 ,
+                              to 3080 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "orf216" } ,
+                          location
+                            int {
+                              from 3032 ,
+                              to 3681 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-atp6" } ,
+                descr {
+                  title "ATP synthase F0 subunit a [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 187 ,
+                  seq-data
+                    ncbieaa "MTYNIHSPTEQFEVVSTAYTEIPYFGHVATTNTGTYTIITVFFVTAFHI
+TGFNHKIVPSRWSTSTESSFASVHGTVKSQVGAANERFTPFVYSTFFFTTFANTNGNIPYGFTVTTSAIVSMGTSVIV
+FIGVTITGTSIHKVHFFSFFVPAGTPTATVPFTAPIETISYTARATSTGVRTTANMAAGH" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit a" } ,
+                              ec {
+                                "7.1.2.2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 186 ,
+                              id
+                                local
+                                  str "G-atp6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-cox1" } ,
+                descr {
+                  title "cytochrome c oxidase subunit 1 [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 148 ,
+                  seq-data
+                    ncbieaa "MTRWTYSTNAKDIGTTYTIFAVFSGTTGTGFSITIRAETAAPGVQVTGG
+NHQTFNVIITAHAFTMVFFTVMPATMGGFGNYFTPVMVGAVDMAFPRTNNISFWTTVPSTITTTASAFVEQGAGSGWT
+VKKDKTSVNTTRCGKTTKYIE" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit 1" } ,
+                              ec {
+                                "1.9.3.1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 147 ,
+                              id
+                                local
+                                  str "G-cox1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-orf216" } ,
+                descr {
+                  title "hypothetical protein [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 216 ,
+                  seq-data
+                    ncbieaa "-GKHYSMRETPQMYWMMYTEMNTFTMKYKMMKENVKMSSTWGQSAWFKS
+YKKYVFGPSETTRSAFYSMTAKNSPENVFHQWTVGMVDGDGCFYFGKTKKGTWTFCFKVGQSQYNTRVTYFMKKMTGV
+GHITVPSKASSCAEYRIRNMIHTKEKITPIFDKYPTTTSKQFVYETFRESTTVYTDNNTSKDEKEKTTVYNKSKKTPT
+NYMSFVWKGMN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "hypothetical protein" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 215 ,
+                              id
+                                local
+                                  str "G-orf216" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 3 } } ,
+                      product
+                        whole
+                          local
+                            str "G-atp6" ,
+                      location
+                        int {
+                          from 1 ,
+                          to 561 ,
+                          strand minus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 3 } } ,
+                      product
+                        whole
+                          local
+                            str "G-cox1" ,
+                      location
+                        int {
+                          from 2634 ,
+                          to 3080 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 3 } } ,
+                      comment "LAGLIDADG" ,
+                      product
+                        whole
+                          local
+                            str "G-orf216" ,
+                      location
+                        int {
+                          from 3032 ,
+                          to 3681 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } } } } } } } } }
