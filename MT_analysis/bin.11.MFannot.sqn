@@ -42,7 +42,7 @@ Seq-submit ::= {
         std {
           year 2022 ,
           month 4 ,
-          day 25 } } ,
+          day 28 } } ,
     subtype new ,
     tool "tbl2asn 25.8 - LINUX UNIX" } ,
   data
@@ -61,8 +61,8 @@ Seq-submit ::= {
                       {
                         subtype type ,
                         subname "genomic" } } ,
-                    gcode 3 ,
-                    mgcode 3 } } } ,
+                    gcode 4 ,
+                    mgcode 4 } } } ,
               comment "Complete genome" ,
               user {
                 type
@@ -87,7 +87,7 @@ Seq-submit ::= {
                     label
                       str "day" ,
                     data
-                      int 25 } ,
+                      int 28 } ,
                   {
                     label
                       str "year" ,
@@ -97,7 +97,7 @@ Seq-submit ::= {
                 std {
                   year 2022 ,
                   month 4 ,
-                  day 25 } } ,
+                  day 28 } } ,
             seq-set {
               seq {
                 id {
@@ -279,9 +279,9 @@ AACACCAACAAACTATATATCTTTTGTATGAAAAGGTATAAATGA" } ,
                   mol aa ,
                   length 187 ,
                   seq-data
-                    ncbieaa "MTYNIHSPTEQFEVVSTAYTEIPYFGHVATTNTGTYTIITVFFVTAFHI
-TGFNHKIVPSRWSTSTESSFASVHGTVKSQVGAANERFTPFVYSTFFFTTFANTNGNIPYGFTVTTSAIVSMGTSVIV
-FIGVTITGTSIHKVHFFSFFVPAGTPTATVPFTAPIETISYTARATSTGVRTTANMAAGH" } ,
+                    ncbieaa "MLYNIHSPLEQFEVVSLAYTEIPYFGHVALTNLGLYTIITVFFVLAFHI
+LGFNHKIVPSRWSLSLESSFASVHGLVKSQVGAANERFLPFVYSLFFFLLFANLNGNIPYGFTVTTSAIVSMGLSVIV
+FIGVTILGLSIHKVHFFSFFVPAGTPLALVPFLAPIELISYLARALSLGVRLLANMAAGH" } ,
                 annot {
                   {
                     data
@@ -314,9 +314,9 @@ FIGVTITGTSIHKVHFFSFFVPAGTPTATVPFTAPIETISYTARATSTGVRTTANMAAGH" } ,
                   mol aa ,
                   length 148 ,
                   seq-data
-                    ncbieaa "MTRWTYSTNAKDIGTTYTIFAVFSGTTGTGFSITIRAETAAPGVQVTGG
-NHQTFNVIITAHAFTMVFFTVMPATMGGFGNYFTPVMVGAVDMAFPRTNNISFWTTVPSTITTTASAFVEQGAGSGWT
-VKKDKTSVNTTRCGKTTKYIE" } ,
+                    ncbieaa "MTRWLYSTNAKDIGTLYLIFAVFSGLLGTGFSILIRAELAAPGVQVLGG
+NHQLFNVIITAHAFLMVFFLVMPALMGGFGNYFTPVMVGAVDMAFPRLNNISFWLLVPSLILLLASAFVEQGAGSGWT
+VKKDKLSVNTTRCGKLLKYIE" } ,
                 annot {
                   {
                     data
@@ -349,10 +349,10 @@ VKKDKTSVNTTRCGKTTKYIE" } ,
                   mol aa ,
                   length 216 ,
                   seq-data
-                    ncbieaa "-GKHYSMRETPQMYWMMYTEMNTFTMKYKMMKENVKMSSTWGQSAWFKS
-YKKYVFGPSETTRSAFYSMTAKNSPENVFHQWTVGMVDGDGCFYFGKTKKGTWTFCFKVGQSQYNTRVTYFMKKMTGV
-GHITVPSKASSCAEYRIRNMIHTKEKITPIFDKYPTTTSKQFVYETFRESTTVYTDNNTSKDEKEKTTVYNKSKKTPT
-NYMSFVWKGMN" } ,
+                    ncbieaa "-GKHYSMRETPQIYWIIYTEMNTFLMKYKMMKENVKMSSTWGQSAWFKS
+YKKYVFGPSETTRSAFYSMLAKNSPENVFHQWLVGIVDGDGCFYFGKTKKGTWTFCFKVGQSQYNLRVLYFMKKMLGV
+GHITVPSKASSCAEYRIRNMIHLKEKILPIFDKYPLLTSKQFVYETFRESLLVYLDNNLSKDEKEKLLVYNKSKKTPT
+NYISFVWKGIN" } ,
                 annot {
                   {
                     data
@@ -378,7 +378,7 @@ NYMSFVWKGMN" } ,
                         cdregion {
                           frame one ,
                           code {
-                            id 3 } } ,
+                            id 4 } } ,
                       product
                         whole
                           local
@@ -396,7 +396,7 @@ NYMSFVWKGMN" } ,
                         cdregion {
                           frame one ,
                           code {
-                            id 3 } } ,
+                            id 4 } } ,
                       product
                         whole
                           local
@@ -414,7 +414,7 @@ NYMSFVWKGMN" } ,
                         cdregion {
                           frame one ,
                           code {
-                            id 3 } } ,
+                            id 4 } } ,
                       comment "LAGLIDADG" ,
                       product
                         whole

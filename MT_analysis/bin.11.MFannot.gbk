@@ -1,4 +1,4 @@
-LOCUS       C_0                     3682 bp    DNA     circular     25-APR-2022
+LOCUS       C_0                     3682 bp    DNA     circular     28-APR-2022
 DEFINITION  Genus species.
 ACCESSION   
 VERSION
@@ -9,7 +9,7 @@ SOURCE      Genus species
 REFERENCE   1  (bases 1 to 3682)
   AUTHORS   Last,F.
   TITLE     Direct Submission
-  JOURNAL   Submitted (25-APR-2022) Division, Affilation, Street, City,
+  JOURNAL   Submitted (28-APR-2022) Division, Affilation, Street, City,
             Province X9X 8Y8, Country
 COMMENT     Complete genome.
 FEATURES             Location/Qualifiers
@@ -23,12 +23,12 @@ FEATURES             Location/Qualifiers
                      /gene="atp6"
                      /EC_number="7.1.2.2"
                      /codon_start=1
-                     /transl_table=3
+                     /transl_table=4
                      /product="ATP synthase F0 subunit a"
-                     /translation="MTYNIHSPTEQFEVVSTAYTEIPYFGHVATTNTGTYTIITVFFV
-                     TAFHITGFNHKIVPSRWSTSTESSFASVHGTVKSQVGAANERFTPFVYSTFFFTTFAN
-                     TNGNIPYGFTVTTSAIVSMGTSVIVFIGVTITGTSIHKVHFFSFFVPAGTPTATVPFT
-                     APIETISYTARATSTGVRTTANMAAGH"
+                     /translation="MLYNIHSPLEQFEVVSLAYTEIPYFGHVALTNLGLYTIITVFFV
+                     LAFHILGFNHKIVPSRWSLSLESSFASVHGLVKSQVGAANERFLPFVYSLFFFLLFAN
+                     LNGNIPYGFTVTTSAIVSMGLSVIVFIGVTILGLSIHKVHFFSFFVPAGTPLALVPFL
+                     APIELISYLARALSLGVRLLANMAAGH"
      gene            935..2268
                      /gene="rns"
      rRNA            935..2268
@@ -46,24 +46,24 @@ FEATURES             Location/Qualifiers
                      /gene="cox1"
                      /EC_number="1.9.3.1"
                      /codon_start=1
-                     /transl_table=3
+                     /transl_table=4
                      /product="cytochrome c oxidase subunit 1"
-                     /translation="MTRWTYSTNAKDIGTTYTIFAVFSGTTGTGFSITIRAETAAPGV
-                     QVTGGNHQTFNVIITAHAFTMVFFTVMPATMGGFGNYFTPVMVGAVDMAFPRTNNISF
-                     WTTVPSTITTTASAFVEQGAGSGWTVKKDKTSVNTTRCGKTTKYIE"
+                     /translation="MTRWLYSTNAKDIGTLYLIFAVFSGLLGTGFSILIRAELAAPGV
+                     QVLGGNHQLFNVIITAHAFLMVFFLVMPALMGGFGNYFTPVMVGAVDMAFPRLNNISF
+                     WLLVPSLILLLASAFVEQGAGSGWTVKKDKLSVNTTRCGKLLKYIE"
      gene            3033..3682
                      /gene="orf216"
      CDS             3033..3682
                      /gene="orf216"
                      /note="LAGLIDADG"
                      /codon_start=1
-                     /transl_table=3
+                     /transl_table=4
                      /product="hypothetical protein"
                      /translation="-
-                     GKHYSMRETPQMYWMMYTEMNTFTMKYKMMKENVKMSSTWGQSAWFKSYKKYVFGPSE
-                     TTRSAFYSMTAKNSPENVFHQWTVGMVDGDGCFYFGKTKKGTWTFCFKVGQSQYNTRV
-                     TYFMKKMTGVGHITVPSKASSCAEYRIRNMIHTKEKITPIFDKYPTTTSKQFVYETFR
-                     ESTTVYTDNNTSKDEKEKTTVYNKSKKTPTNYMSFVWKGMN"
+                     GKHYSMRETPQIYWIIYTEMNTFLMKYKMMKENVKMSSTWGQSAWFKSYKKYVFGPSE
+                     TTRSAFYSMLAKNSPENVFHQWLVGIVDGDGCFYFGKTKKGTWTFCFKVGQSQYNLRV
+                     LYFMKKMLGVGHITVPSKASSCAEYRIRNMIHLKEKILPIFDKYPLLTSKQFVYETFR
+                     ESLLVYLDNNLSKDEKEKLLVYNKSKKTPTNYISFVWKGIN"
 ORIGIN      
         1 agtgtccagc agccatatta gctagtagcc gtactcccag tgaaagtgca cgagctagat
        61 aagaaattag ttcaataggt gcaaggaaag gaactagagc aagaggagta cctgcaggaa
