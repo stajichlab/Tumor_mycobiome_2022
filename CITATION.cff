@@ -1,9 +1,11 @@
 cff-version: 1.1.0
 message: "Dataset and analyses scripts to support Narunsky-Haziza et al, 2022."
 authors:
-  - family-names: Stajich
-    given-names: Jason
+  - family-names: "Stajich"
+    given-names: "Jason"
     orcid: https://orcid.org/0000-0002-7591-0020
-title: stajichlab/Tumor_mycobiome_2022: Tumor Mycobiome Supporting dataset for Narunsky-Haziza et al, 2022
+title: "stajichlab/Tumor_mycobiome_2022: Tumor Mycobiome Supporting dataset for Narunsky-Haziza et al, 2022"
 version: v1.1
 date-released: 2022-04-25
+doi: 10.5281/zenodo.6419964
+url: https://github.com/stajichlab/Tumor_mycobiome_2022
